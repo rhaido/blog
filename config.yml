@@ -1,0 +1,6 @@
+active_modules: [pygments, tags, blog, latex]
+author: Mike Grozak
+canonical_url: http://127.0.0.1/
+modules:
+  pygments:
+    style: tango
