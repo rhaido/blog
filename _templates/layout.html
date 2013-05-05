@@ -15,14 +15,24 @@
     {%- endblock %}
 </head>
 
+{% from "_formhelpers.html" import menu_field %}
+
+{% set navigation_bar = [
+  ('/', 'Blog', 'Blog'),
+  ('/archive/','Archive','Archive'),
+  ('/tags/','Tags','Tags'),
+] -%}
+
+{% set active_page = active_page | default('Blog') -%}
+
 <body>
 <div id="container">
   <div id="header">
   	<a href="/"><h1 id="logo">Raido</h1></a>
     <ul>
-      <li><a href="/">Blog</a>
-      <li><a href="/archive/">Archive</a>
-      <li><a href="/tags/">Tags</a>
+      {% for href,title,caption in navigation_bar -%}
+        {{ menu_field(href,title,caption,active_page) }}
+      {% endfor -%}  
     </ul>
   </div>
 
@@ -30,6 +40,7 @@
     <div id="content">
       {%- block body -%}{%- endblock %}
     </div>
+
     <div id="footer">
       <p>Copyright &copy; Mike Grozak<br/></p>
       <p id="infolio">Создание сайта &mdash; <a href="http://mike.grozak.com/">Mike Grozak</a></p>

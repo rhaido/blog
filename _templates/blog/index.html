@@ -1,11 +1,15 @@
 {% extends "layout.html" %}
+
+{% set active_page='Blog' %}
+
 {% block title %}Blog{% endblock %}
 {% block body %}
   <ul class="details">
   {%- for entry in pagination.get_slice() %}
     <li><h2><a href="{{ link_to('page',slug=entry.slug) }}" class="dashed">{{ entry.title }}</a></h2>
+    <p class="date">{{ format_date(entry.pub_date, format='medium') }}</p>
     {% if entry.summary -%}
-    {{ entry.render_summary() }}
+    <div class="summary">{{ entry.render_summary() }}</div>
     {%- endif -%}</li>
   {%- endfor -%}  
 

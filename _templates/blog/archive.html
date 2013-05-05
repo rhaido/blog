@@ -1,17 +1,17 @@
 {% extends "layout.html" %}
+
+{% set active_page='Archive' %}
+
 {% block title %}Blog Archive{% endblock %}
 {% block body %}
-
-  <h1>Blog Archive</h1>
-
-  <ul class=blog-archive>
+  <!-- <ul class=blog-archive> -->
+  <ul class="details">
   {%- for entry in archive %}
-    <li><a href="{{ link_to('blog_archive', year=entry.year) }}">{{ entry.year }}</a>
+    <li><h2><a href="{{ link_to('blog_archive', year=entry.year) }}" class="dashed">{{ entry.year }}</a></h2>
       <ul>
       {%- for subentry in entry.months %}
-        <li><a href="{{ link_to('blog_archive', year=entry.year,
-                                month=subentry.month) }}">{{ subentry.month_name }}</a>
-          — {{ subentry.count }} {{ 'entry' if subentry.count == 1 else 'entries' }}
+        <li>{{ subentry.month_name }} — <a href="{{ link_to('blog_archive', year=entry.year,
+                                month=subentry.month) }}">{{ subentry.count }} {{ 'entry' if subentry.count == 1 else 'entries' }}</a></li>
       {%- endfor %}
       </ul>
   {%- endfor %}
