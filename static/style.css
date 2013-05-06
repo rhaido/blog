@@ -1,7 +1,7 @@
 /* SCSS!!!! */
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,p,blockquote,th,td {margin:0;padding:0;}
-h1,h2,h3,h4,h5,h6 {font-size:100%;}
+h2,h3,h4,h5,h6 {font-size:100%;}
 table { border-collapse:collapse;border-spacing:0; }
 fieldset,img { border:0; }
 input, textarea, select { font:99% arial, helvetica, clean,sans-serif; }
@@ -27,7 +27,7 @@ a:active { color:#940000; }
 
 #container { width: 750px; margin: 0 auto; line-height: 1.2em; color: #666666; background-color: #FFFFFF; padding-top: 50px; }
 
-#header { width: 100%; border: 0px; padding-top: 10px; padding-bottom: 10px; }
+#header { width: 100%; border: 0px; /* padding-top: 10px; */padding-bottom: 10px; }
 
 #header ul { padding-top: 30px; list-style: none; font-size: 24px; }
 
@@ -37,18 +37,26 @@ a:active { color:#940000; }
 
 #container2 { width: 100%; margin: 0 auto; }
 
-#content { width: 570px; padding-right: 10px; float: left; padding-top: 30px; padding-bottom: 70px; }
-
+#content { padding-right: 10px; float: left; padding-top: 30px; padding-bottom: 70px; }
 #content h2 { font-size: 17px; }
+#content p { border-bottom: none; color: #000; }
 
-#content p { border-bottom: none; padding-left: 30px; }
+#inline-list {margin: 1em; font-family: Verdana, sans-serif;}
+#inline-list ul li {display: inline; padding-right:5px;padding-bottom:5px;}
+#inline-list ul li a {color: #666666;}
 
+#main-text {padding-top:10px; text-indent:35px;}
+#main-text p {line-height:1.7em;}
+
+#tags { padding-top:10px; font-size:12px; }
+#tags p {color:#CCCCCC;}
 .dashed{ border-bottom: 1px dashed!important; }
 .uline{ border-bottom: 1px dashed!important; }
 
 .first{ margin-top: 0!important; }
-.date{ font-size:11px; padding-top:2px; }
+.date{ font-size:11px; }
 .summary{ color: #000; padding-top:5px; }
+.fwnormal{ font-weight: normal; }
 
 ul.details { list-style: none; padding-left: 0px; padding-top: 0px;}
 ul.details li { clear: both; }
@@ -68,9 +76,6 @@ ul.details ul li h2 a:visited { color: #EBA34A; border-bottom: 1px solid; outlin
 ul.details ul li h2 a:hover { border-bottom: 1px dotted; }
 ul.details ul li h2 a:active { color:#940000; }
 
-#inline-list {margin: 1em; font-family: Verdana, sans-serif;}
-#inline-list ul li {display: inline; padding-right:5px;padding-bottom:5px;}
-#inline-list ul li a {color: #666666;}
 
 /**************** images styles ****************/		
 a img{ border: none; }
@@ -79,19 +84,12 @@ img.left { float: left; margin: 0 12px 5px 0; }
 img.center { display: block; margin: 0 auto 5px auto; }
 img.right { float: right; margin: 0 0 5px 12px; }
 
-/**************** sidebar styles ****************/
-#sidebar { width: 150px; padding-left: 21px; padding-right: 10px; padding-top: 10px; padding-top: 20px; float: right; }
-
-#sidebar h2 { padding-top: 10px; }
-
-#sidebar p { padding-top: 10px; padding-bottom: 10px; border-bottom: 1px solid #DDDDDD; text-align: left; font-size: 10px; }
-
 /**************** footer styles ****************/
 #footer { clear: both; width: 100%; }
 #footer p { float: left; padding-left: 0px; text-align: left; border-bottom: none; font-size: 12px; }
 #footer p a { font-weight:100; border-bottom: 1px dotted #FFFFFF; }
 #footer p a:hover { text-decoration: none; border-bottom: 1px dotted; }
-#footer #infolio{ float: right; padding-bottom: 1em; }
+#footer #created { float: right; padding-bottom: 1em; }
 #footer .text-like{ border: none; }
 
 /**************** training lists ******************/
@@ -117,23 +115,8 @@ dl.tlist dd { margin-left: 10em; padding-top: 5px; color: #000; }
 #contacts dt { width: 8em; margin-bottom: .5em; padding-top: .3em; padding-left: 30px; }
 #contacts dd { font-size: 1.5em; margin-bottom: .5em; white-space: nowrap; }
 
-/*ul.details h2 a.dashed{ color: #f4c464; }
-
-ul.details h2 a.arrow:link{ color: #ccc; border: none; }
-ul.details h2 a.arrow:visited{ border: none; }
-
-ul.details li li{ list-style: disc; }
-ul.details{ margin: 3em 0; }*/
-
-
 /***************** Pagination Styles ******************/
 /*#pagination ul {border:0; margin:0; padding:0;}*/
 #pagination { width: 570px; padding-right: 10px; float: left; padding-top: 10px; padding-bottom: 0px; }
 #pagination li {border: 0; margin:0; font-size:11px; font-weight: bold; list-style:none;float:left;padding:3px 6px;}
 #pagination .active { border: 1px solid #DEDEDE;}
-
-/*#pagination a:link, a:visited { display:block; float:left; padding:3px 6px; text-decoration:none;}
-#pagination a:hover{text-decoration:none;}
-
-#pagination .previous-off, .next-off { color:#888888; display:block; float:left; font-weight:bold; padding:3px 6px; margin-right:0px; }
-#pagination .next, .previous { font-weight:bold; margin-right: 0px; }*/
