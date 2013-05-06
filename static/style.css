@@ -16,8 +16,8 @@ abbr,acronym{ border-bottom: 1px dotted; cursor: help; }
 
 legend{ display: none; }
 
-a:link { color: #f4c464; border-bottom: none; outline:none }
-a:visited { color: #f4c464; border-bottom: none; }
+a:link { color: #EBA34A; border-bottom: none; outline:none }
+a:visited { color: #EBA34A; border-bottom: none; }
 a:hover { border-bottom: 1px dotted; }
 a:active { color:#940000; }
 
@@ -44,6 +44,8 @@ a:active { color:#940000; }
 #content p { border-bottom: none; padding-left: 30px; }
 
 .dashed{ border-bottom: 1px dashed!important; }
+.uline{ border-bottom: 1px dashed!important; }
+
 .first{ margin-top: 0!important; }
 .date{ font-size:11px; padding-top:2px; }
 .summary{ color: #000; padding-top:5px; }
@@ -58,11 +60,11 @@ ul.details h2 a:visited { border: none; color:#666666; }
 ul.details li p span { font-size: 18px; }
 
 ul.details ul { list-style: none; padding-left: 50px; padding-top: 0px;}
-ul.details ul li { padding-bottom: 0px; }
+ul.details ul li { padding-bottom: 0px; padding-top:5px; }
 ul.details ul li h2 { margin-top: 0; margin-bottom: 0.5em; padding-top: 10px; }
-ul.details ul li h2 a { color: #f4c464; font-size: 16px; }
-ul.details ul li h2 a:link { color: #f4c464; border-bottom: 1px solid; outline: none }
-ul.details ul li h2 a:visited { color: #f4c464; border-bottom: 1px solid; outline: none }
+ul.details ul li h2 a { color: #EBA34A; font-size: 16px; }
+ul.details ul li h2 a:link { color: #EBA34A; border-bottom: 1px solid; outline: none }
+ul.details ul li h2 a:visited { color: #EBA34A; border-bottom: 1px solid; outline: none; }
 ul.details ul li h2 a:hover { border-bottom: 1px dotted; }
 ul.details ul li h2 a:active { color:#940000; }
 
@@ -108,7 +110,7 @@ dl.tdef dd { margin-top: 5px; margin-left: 3em; }
 /* dl.tlist { width: 120px; float: left; padding-left: 30px; } */
 dl.tlist { padding-left: 30px; }
 dl.tlist dt { float: left; padding-top: 5px; }
-dl.tlist dd { margin-left: 4em; padding-top: 5px; color: #000; }
+dl.tlist dd { margin-left: 10em; padding-top: 5px; color: #000; }
 
 /***************** contacts style *******************/
 #contacts { margin-bottom: 2em; }

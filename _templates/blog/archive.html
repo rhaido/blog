@@ -7,13 +7,15 @@
   <!-- <ul class=blog-archive> -->
   <ul class="details">
   {%- for entry in archive %}
-    <li><h2><a href="{{ link_to('blog_archive', year=entry.year) }}" class="dashed">{{ entry.year }}</a></h2>
+    <li><h2><a href="#" class="dashed">{{ entry.year }}</a></h2>
+      <div class="hide">
       <ul>
       {%- for subentry in entry.months %}
         <li>{{ subentry.month_name }} — <a href="{{ link_to('blog_archive', year=entry.year,
                                 month=subentry.month) }}">{{ subentry.count }} {{ 'entry' if subentry.count == 1 else 'entries' }}</a></li>
       {%- endfor %}
-      </ul>
+    </ul>
+    </div>
   {%- endfor %}
   </ul>
 {% endblock %}
