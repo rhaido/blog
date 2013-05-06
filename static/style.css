@@ -21,18 +21,13 @@ a:visited { color: #EBA34A; border-bottom: none; }
 a:hover { border-bottom: 1px dotted; }
 a:active { color:#940000; }
 
-/* strong{ color: white } */
-
 #logo { right: 0; width: 100px; height: 100px; background: url("/static/gif/raido.gif") no-repeat; float: right; text-indent: -9999999px; padding-left: 40px; }
 
 #container { width: 750px; margin: 0 auto; line-height: 1.2em; color: #666666; background-color: #FFFFFF; padding-top: 50px; }
 
 #header { width: 100%; border: 0px; /* padding-top: 10px; */padding-bottom: 10px; }
-
 #header ul { padding-top: 30px; list-style: none; font-size: 24px; }
-
 #header li { display: inline; padding-right: 40px; border: 0px; }
-
 #header span { color: #CCCCCC; font-weight: normal; }
 
 #container2 { width: 100%; margin: 0 auto; }
@@ -50,10 +45,16 @@ a:active { color:#940000; }
 
 #tags { padding-top:10px; font-size:12px; }
 #tags p {color:#CCCCCC;}
+
+#footer { clear: both; width: 100%; }
+#footer p { float: left; padding-left: 0px; text-align: left; border-bottom: none; font-size: 12px; }
+#footer p a { font-weight:100; border-bottom: 1px dotted #FFFFFF; }
+#footer p a:hover { text-decoration: none; border-bottom: 1px dotted; }
+#footer #created { float: right; padding-bottom: 1em; }
+#footer .text-like{ border: none; }
+
 .dashed{ border-bottom: 1px dashed!important; }
 .uline{ border-bottom: 1px dashed!important; }
-
-.first{ margin-top: 0!important; }
 .date{ font-size:11px; }
 .summary{ color: #000; padding-top:5px; }
 .fwnormal{ font-weight: normal; }
@@ -63,8 +64,6 @@ ul.details li { clear: both; }
 ul.details h2 { margin-top: 0; margin-bottom: 0.5em; padding-top: 20px;  }
 ul.details h2 a { border: none; color:#666666; outline: none; }
 ul.details h2 a:visited { border: none; color:#666666; }
-/* ul.details li p { padding-top: 5px; } */
-
 ul.details li p span { font-size: 18px; }
 
 ul.details ul { list-style: none; padding-left: 50px; padding-top: 0px;}
@@ -76,21 +75,12 @@ ul.details ul li h2 a:visited { color: #EBA34A; border-bottom: 1px solid; outlin
 ul.details ul li h2 a:hover { border-bottom: 1px dotted; }
 ul.details ul li h2 a:active { color:#940000; }
 
-
 /**************** images styles ****************/		
 a img{ border: none; }
 img.left, img.center, img.right { padding: 4px; border: 1px solid #a0a0a0; }
 img.left { float: left; margin: 0 12px 5px 0; }
 img.center { display: block; margin: 0 auto 5px auto; }
 img.right { float: right; margin: 0 0 5px 12px; }
-
-/**************** footer styles ****************/
-#footer { clear: both; width: 100%; }
-#footer p { float: left; padding-left: 0px; text-align: left; border-bottom: none; font-size: 12px; }
-#footer p a { font-weight:100; border-bottom: 1px dotted #FFFFFF; }
-#footer p a:hover { text-decoration: none; border-bottom: 1px dotted; }
-#footer #created { float: right; padding-bottom: 1em; }
-#footer .text-like{ border: none; }
 
 /**************** training lists ******************/
 .inputText { height: 100px; width: 100%; min-width: 100%; max-width: 100%; }
@@ -105,7 +95,6 @@ dl.tdef { padding-top: 5px; padding-left: 30px; }
 dl.tdef dt { float: left; margin-top: 5px; }
 dl.tdef dd { margin-top: 5px; margin-left: 3em; }
 
-/* dl.tlist { width: 120px; float: left; padding-left: 30px; } */
 dl.tlist { padding-left: 30px; }
 dl.tlist dt { float: left; padding-top: 5px; }
 dl.tlist dd { margin-left: 10em; padding-top: 5px; color: #000; }
@@ -116,7 +105,6 @@ dl.tlist dd { margin-left: 10em; padding-top: 5px; color: #000; }
 #contacts dd { font-size: 1.5em; margin-bottom: .5em; white-space: nowrap; }
 
 /***************** Pagination Styles ******************/
-/*#pagination ul {border:0; margin:0; padding:0;}*/
 #pagination { width: 570px; padding-right: 10px; float: left; padding-top: 10px; padding-bottom: 0px; }
 #pagination li {border: 0; margin:0; font-size:11px; font-weight: bold; list-style:none;float:left;padding:3px 6px;}
 #pagination .active { border: 1px solid #DEDEDE;}
