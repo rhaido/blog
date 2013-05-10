@@ -1,6 +1,9 @@
-active_modules: [pygments, tags, blog, latex]
+active_modules: [pygments, tags, blog, latex, disqus]
 author: Mike Grozak
-canonical_url: http://127.0.0.1/
+canonical_url: http://blog.grozak.com/
 modules:
   pygments:
     style: tango
+  disqus:
+    shortname: mgrozak
+

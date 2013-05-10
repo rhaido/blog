@@ -53,6 +53,8 @@ a:active { color:#940000; }
 #footer #created { float: right; padding-bottom: 1em; }
 #footer .text-like{ border: none; }
 
+#disqus_thread {padding-top:20px;}
+
 .dashed{ border-bottom: 1px dashed!important; }
 .uline{ border-bottom: 1px dashed!important; }
 .date{ font-size:11px; }
