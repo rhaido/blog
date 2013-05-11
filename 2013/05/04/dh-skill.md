@@ -1,10 +1,8 @@
+title: Спуск на ногах
 public: yes
-tags: [dh,спуск,техника,посадка,xc,desent]
-summary: |
-  Полезная мысль про технику спуска на байке
-
-Спуск на ногах
-==============
+tags: xc
+      downhill
+summary: Полезная мысль про технику спуска на байке
 
 Взято отсюда - http://twentysix.ru/blog/RaceStar/107491.html:
 
