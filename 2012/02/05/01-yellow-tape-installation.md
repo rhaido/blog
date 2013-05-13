@@ -3,7 +3,7 @@ public: yes
 tags: notubes
       yellow tape
       герметизирующая лента
-summary: некоторые тонкости установки герметизирующей желтой ленты от NoTubes и ей подобных ![tape](http://www.notubes.com/Assets/ProductImages/AS33-Stans-Rim-Tape-10yd-25mm.jpg)
+summary: Некоторые тонкости установки герметизирующей желтой ленты от NoTubes и ей подобных ![tape](http://www.notubes.com/Assets/ProductImages/AS33-Stans-Rim-Tape-10yd-25mm.jpg)
 
 Всем привет ;)
 О том, что бескамерка рулит, Стерх уже писал, и не раз :) Тем не менее, по
