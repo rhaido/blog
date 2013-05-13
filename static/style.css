@@ -40,8 +40,11 @@ a:active { color:#940000; }
 #inline-list ul li {display: inline; padding-right:5px;padding-bottom:5px;}
 #inline-list ul li a {color: #666666;}
 
-#main-text {padding-top:10px; text-indent:35px;}
-#main-text p {line-height:1.7em;}
+#main-text {padding-top:10px; text-indent:20px;color:#000;}
+#main-text p {line-height:1.7em;padding-top:0.5em;padding-bottom:0.5em;}
+#main-text ul {list-style:disc;list-style-position:outside;margin-left:20px;}
+#main-text ul li {line-height:1.7em;text-indent:5px;padding-left:5px;}
+/*#main-text ul ul {margin-left:20px;}*/
 
 #tags { padding-top:10px; font-size:12px; }
 #tags p {color:#CCCCCC;}
