@@ -8,7 +8,7 @@ input, textarea, select { font:99% arial, helvetica, clean,sans-serif; }
 
 a { text-decoration: none; }
 
-body{ font-size: 16px; font-family: arial, sans-serif; line-height: 1.2em; color: #CCCCCC; }
+body{ font-size: 15px; font-family: arial, sans-serif; line-height: 1.2em; color: #CCCCCC; }
 
 body *{ line-height: 1.2em; }
 
@@ -33,14 +33,14 @@ a:active { color:#940000; }
 #container2 { width: 100%; margin: 0 auto; }
 
 #content { padding-right: 10px; float: left; padding-top: 30px; padding-bottom: 70px; }
-#content h2 { font-size: 17px; }
+#content h2 { font-size: 20px; padding-top: 0.5em; padding-bottom: 0.5em;}
 #content p { border-bottom: none; color: #000; }
 
-#inline-list {margin: 1em; font-family: Verdana, sans-serif;}
+#inline-list {margin: 1em; font-family: arial, sans-serif;}
 #inline-list ul li {display: inline; padding-right:5px;padding-bottom:5px;}
 #inline-list ul li a {color: #666666;}
 
-#main-text {padding-top:10px; text-indent:20px;color:#000;}
+#main-text {padding-top:10px; color:#000;}
 #main-text p {line-height:1.7em;padding-top:0.5em;padding-bottom:0.5em;}
 #main-text ul {list-style:disc;list-style-position:outside;margin-left:20px;}
 #main-text ul li {line-height:1.7em;text-indent:5px;padding-left:5px;}
@@ -60,7 +60,7 @@ a:active { color:#940000; }
 
 .dashed{ border-bottom: 1px dashed!important; }
 .uline{ border-bottom: 1px dashed!important; }
-.date{ font-size:11px; }
+.date{ font-size:11px; padding-left:2px; }
 .summary{ color: #000; padding-top:5px; }
 .fwnormal{ font-weight: normal; }
 
