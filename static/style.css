@@ -66,7 +66,7 @@ a:active { color:#940000; }
 
 ul.details { list-style: none; padding-left: 0px; padding-top: 0px;}
 ul.details li { clear: both; }
-ul.details h2 { margin-top: 0; margin-bottom: 0.5em; padding-top: 20px;  }
+ul.details h2 { margin-top: 0; padding-top: 20px;  }
 ul.details h2 a { border: none; color:#666666; outline: none; }
 ul.details h2 a:visited { border: none; color:#666666; }
 ul.details li p span { font-size: 18px; }
