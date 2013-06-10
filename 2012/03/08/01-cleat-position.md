@@ -4,7 +4,7 @@ tags: bikefit
       cleat position
       положение шипа
       посадка
-summary: Мой перевод статьи Стива Хогга ["Power to the Pedal - Cleat Position"](http://www.stevehoggbikefitting.com/blog/2011/04/power-to-the-pedal-cleat-position/).
+summary: Мой перевод статьи Стива Хогга ["Power to the Pedal - Cleat Position"](http://www.stevehoggbikefitting.com/blog/2011/04/power-to-the-pedal-cleat-position/) ![shoes](/static/img/2012/03/08/33997b.jpg)
 
 ## Вступление от переводчика.
 
@@ -38,6 +38,8 @@ summary: Мой перевод статьи Стива Хогга ["Power to the
 С наилучшими пожеланиями, Mike Grozak aka Raido
 
 ## Начнём, пожалуй.
+
+![shoes](/static/img/2012/03/08/MTP-joints2-500x375.jpg)
 
 Следует помнить о нескольких вещах, когда заходит речь о расположении шипов на 
 велообуви:

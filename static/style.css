@@ -33,7 +33,7 @@ a:active { color:#940000; }
 #container2 { width: 100%; margin: 0 auto; }
 
 #content { padding-right: 10px; float: left; padding-top: 30px; padding-bottom: 70px; }
-#content h2 { font-size: 20px; padding-top: 0.5em; padding-bottom: 0.5em;}
+#content h2 { font-size: 20px; padding-bottom: 0.5em;}
 #content p { border-bottom: none; color: #000; }
 
 #inline-list {margin: 1em; font-family: arial, sans-serif;}
