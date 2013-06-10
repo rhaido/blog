@@ -16,5 +16,5 @@ upload:
 	@echo "Done..."
 
 release:
-	ssh mike@grozak.com 'cd /apps/grozak.com/blog; . ../bin/activate; git pull; make build'
+	ssh mike@grozak.com 'cd /apps/grozak.com/blog; . ../bin/activate; git pull; make clean; make build'
 	@echo "Done..."
