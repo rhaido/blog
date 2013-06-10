@@ -1,5 +1,5 @@
 title: Подготовка к гонке-ХС
-public: yes
+public: no
 tags: race preparation
 summary: Моя подготовка к гонке, или как я стараюсь ничего не забыть.
 
