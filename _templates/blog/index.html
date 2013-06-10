@@ -7,10 +7,10 @@
   <ul class="details">
   {%- for entry in pagination.get_slice() %}
     <li><h2><a href="{{ link_to('page',slug=entry.slug) }}" class="uline">{{ entry.title }}</a></h2>
-    <p class="date">written on {{ format_date(entry.pub_date, format='medium') }}</p>
     {% if entry.summary -%}
     <div class="summary">{{ entry.render_summary() }}</div>
     {%- endif -%}</li>
+    <p class="date">written on {{ format_date(entry.pub_date, format='medium') }}</p>
   {%- endfor -%}  
 
   {%- if show_pagination and pagination.pages > 1 -%}
