@@ -5,11 +5,12 @@
 {% block title %}Entries tagged “{{ tag.name }}”{% endblock %}
 
 {% block body %}
-  <h2 class="fwnormal">Entries tagged with <a href="#">{{ tag.name }}</a>:</h2>
-  <ul class="details">
+  <ul class="details"><li><h2 class="fwnormal">Entries tagged with <a href="#" class="uline">{{ tag.name }}</a>:</h2>
+  <ul>
   {%- for entry in entries %}
-    <li><h2><a href="{{ link_to('page', slug=entry.slug) }}" class="uline">{{ entry.title }}</a></h2>
+    <li><p><a href="{{ link_to('page', slug=entry.slug) }}" class="uline">{{entry.title }}</a></p>
     {%- if entry.pub_date %}<p class="date">written on {{ format_date(entry.pub_date, format='long') }}</p>{% endif %}</li>
   {%- endfor %}
+  </li>
   </ul>
 {% endblock %}
