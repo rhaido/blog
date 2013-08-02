@@ -1,4 +1,4 @@
-title: 5 tips to have great *-season
+title: 5 tips to have great sport season
 public: yes
 tags: workout
 summary: 5 great ideas, which could help you to have super-season in any kind of sport
