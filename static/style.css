@@ -37,13 +37,16 @@ blockquote { margin: 1em 3em;	color: #999; border-left: 2px solid #999; padding-
 
 #content { padding-right: 10px; float: left; padding-top: 30px; padding-bottom: 70px; }
 
+/* to use in _templates/tagcloud.html */
 #inline-list {margin: 1em; font-family: arial, sans-serif;}
 #inline-list ul li {display: inline; padding-right:5px;padding-bottom:5px;}
 #inline-list ul li a {color: #666666;}
 
+/* main message body, applied in _templates/md_display.html */
 #main-text {padding-top:10px; color:#000;}
 #main-text p {line-height:1.7em;padding-top:0.5em;padding-bottom:0.5em;}
 #main-text ul {list-style:disc;list-style-position:outside;margin-left:20px;}
+#main-text ol {list-style-position:outside;margin-left:20px;}
 #main-text ul li {line-height:1.7em;text-indent:5px;padding-left:5px;}
 #main-text h2 {font-size: 20px;padding-top:0.5em;padding-bottom:0.5em;}
 
