@@ -70,6 +70,9 @@ blockquote { margin: 1em 3em;	color: #999; border-left: 2px solid #999; padding-
 .summary{ color: #000; padding-top:5px; }
 .fwnormal{ font-weight: normal; }
 
+/* main class; wraps the content of navigation pages (non articles);
+_templates/blog/{year_archive.html,month_archive.html,archive.html, ... */
+
 ul.details { list-style: none; padding-left: 0px; padding-top: 0px;}
 ul.details li { clear: both; }
 ul.details h2 {margin-top: 0; font-size: 18px; padding-top: 0.5em;}
@@ -78,7 +81,7 @@ ul.details h2 a:visited { border: none; color:#666666; }
 ul.details li p span { font-size: 18px; }
 
 ul.details ul { list-style: none; padding-left: 50px; padding-top: 0px;}
-ul.details ul li { padding-bottom: 0px; padding-top:5px; }
+ul.details ul li { padding-bottom: 0px; padding-top:7px; }
 ul.details ul li h2 { margin-top: 0;margin-bottom: 0.5em; padding-top: 10px; }
 ul.details ul li h2 a { color: #EBA34A; font-size: 16px; }
 ul.details ul li h2 a:link { color: #EBA34A; border-bottom: 1px solid; outline: none }
