@@ -87,45 +87,47 @@ described with the following steps:
 ## anisble-massive
 
 This script is situated in ~pca/SYSADM/ansible-massive and was written for
-massive invocation of ansible on various hosts. For exampe:
+massive invocation of ansible on various hosts. For example:
 
-    ~pca/SYSADM/ansible-massive -r 'cwo-ccc-d' -u root -m shell -a 'rsync -q -a --delete --delete-excluded --exclude=.[a-zA-Z]* /acc/sys/default/ansible /var/lib/'  
+> $ ~pca/SYSADM/ansible-massive -r 'cwo-ccc-d' -u root -m shell 
+> -a 'rsync -q -a --delete --delete-excluded --exclude=.[a-zA-Z]*
+> /acc/sys/default/ansible /var/lib/'
+
 \- will execute rsync on all cwo-ccc-d* machines from
   /acc/sys/Linux/hosts/hosts.masters file. Or
 
-     ~pca/SYSADM/ansible-massive -r 'cwo-ccc-a'
+> ~pca/SYSADM/ansible-massive -r 'cwo-ccc-a'
 
 \- will execute ansible ping module on the cwo-ccc-a* consoles.
 The playbooks are specified with __-p__ option. Any further information could be
 obtained from invocation of __ansible-massive__ without options or with __-h__
 option:
     
-    [mgrozak@cwo-ccc-d0lc ~]$ ~pca/SYSADM/ansible-massive -h
-    Usage: /user/pca/SYSADM/ansible-massive -r <grep regexp> [ -m <module> [-a 'module arguments'] | -p <path to playbook> ] [expert options]
+>    [mgrozak@cwo-ccc-d0lc ~]$ ~pca/SYSADM/ansible-massive -h  
+>    Usage: /user/pca/SYSADM/ansible-massive -r <grep regexp> [ -m <module> [-a 'module arguments'] | -p <path to playbook> ] [expert options]
+>    
+>    This is a wrapper around ansible and ansible-playbook commands. Most of
+>    the cl options are 1:1 applicable to ansible/ansible-playbook
+>    
+>    Necessary options:
+>      -r - regular expression for extraction from /acc/sys/Linux/hosts/hosts.master
+>           If only this option is specified, 'ping' module will be called
+>           for all matched hosts.
+>    
+>    Ansible execution mode:
+>      -m - Ansible module name to execute on the remote system;
+>      -a - arguments for Ansible module.
+>    
+>    Ansible playbook execution options:
+>      -p - specify ansible playbook to execute.
+>    
+>    Expert options:
+>      -u - user to connect with, by default 'mgrozak';
+>      -f - number of ansible forks;
+>      -s - use sudo.
+>    
+>    Optional features:
+>      -l - list hosts which will participate in ansible action
+>           without doing anything on them.
+>      -h - this message
     
-    This is a wrapper around ansible and ansible-playbook commands. Most of
-    the cl options are 1:1 applicable to ansible/ansible-playbook
-    
-    Necessary options:
-      -r - regular expression for extraction from /acc/sys/Linux/hosts/hosts.master
-           If only this option is specified, 'ping' module will be called
-           for all matched hosts.
-    
-    Ansible execution mode:
-      -m - Ansible module name to execute on the remote system;
-      -a - arguments for Ansible module.
-    
-    Ansible playbook execution options:
-      -p - specify ansible playbook to execute.
-    
-    Expert options:
-      -u - user to connect with, by default 'mgrozak';
-      -f - number of ansible forks;
-      -s - use sudo.
-    
-    Optional features:
-      -l - list hosts which will participate in ansible action
-           without doing anything on them.
-      -h - this message
-    
-
