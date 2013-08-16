@@ -5,101 +5,132 @@ tags: ansible
 summary: Here I am trying to give brief summary about current BE/CO ansible structure, its advantages and disadvantages
 
 ## Code storage
-You can find playbooks and roles in /acc/sys/default/ansible. As usually, the
-cs-ccr-feop is a primary source of knowledge. The auxiliary playbooks are:
+You can find playbooks and roles in __/acc/sys/default/ansible__. As usually, the
+*cs-ccr-feop* is a primary source of knowledge. The auxiliary playbooks and
+scripts situated outside of this directory are:
 
-* /acc/sys/slc6/adm/acc-bootstrap.yml - bootstrapping playbook
-* /acc/sys/slc6/adm/acc-migration2ans.yml - playbook to migrate BEupdate
-  machine.
-* ~pca/SYSADM/ansible-massive - massive execution of either ansible or ansible
-  playbook depending on the options
+  * __/acc/sys/slc6/adm/acc-bootstrap.yml__ - bootstrapping playbook
+
+  * __/acc/sys/slc6/adm/acc-migration2ans.yml__ - playbook to migrate BEupdate
+    machine.
+
+  * __~pca/SYSADM/ansible-massive__ - massive execution of either ansible or ansible
+    playbook depending on the options
 
 ## Bootstrapping process
-Bootstrapping process is integrated into our current installation model.
+
+Bootstrapping process is integrated into our current installation model (step by
+step):
 
 1. PXE-boot
-2. Kickstart installation
-3. Kickstart puts a small piece of code inside /etc/rc.local, which executes, in
-its turn, BEinstall script
-4. Reboot
-5. Execution of BEinstall script from /etc/rc.local
-    1. Ansible installation from epel and its fast configuration
-    2. ansible-playbook with /acc/sys/slc6/adm/acc-bootstrap.yml, which does:
+
+1. Kickstart installation
+
+1. Kickstart puts a small piece of code inside __/etc/rc.local__ - execution of
+   _BEinstall_ script.
+
+1. Reboot
+
+1. Execution of BEinstall script from _/etc/rc.local_
+
+    2. Ansible installation from epel and its fast configuration
+
+    2. ansible-playbook execution with __/acc/sys/slc6/adm/acc-bootstrap.yml__, which does:
+
         * configuration of automounter
-        * copy acc_facts module from NFS to /usr/share/asnible and execute it
-        * obtain __bootsrv__ variable and create /acc/sys symlink to
-          /nfs/${bootsrv}/sys
-        * copy be-ansible script to local disk in /var/lib/anisble
-    3. Execute be-ansible and show the output and write to a file using tee
+
+        * temporary creation of _/acc/sys_ symlink to _cs-ccr-felab_
+
+        * copy _acc_facts_ module from NFS to _/usr/share/asnible_ and execute it
+
+        * obtain proper __bootsrv__ variable and create _/acc/sys_ symlink to
+          _/nfs/${bootsrv}/sys_ firectory
+
+        * copy be-ansible script to local disk in _/var/lib/ansible_
+
+    2. Execute _be-ansible_, show the output and write to a file using tee in the
+       same time
 
 ## be-ansible
-This script is a wrapper around ansible-playbook. Its main goal is to form the
-"local" ansible local role (about it later) and  execute beupdate.yml with
-ansible-playbook with various options, like:
+This script is a wrapper around _ansible-playbook_ executable. Its main goals
+are:
 
-* execute it --verbose option
-* redirection of stdout to the specified file 
-* write log lines to remote server in case of non-zero return code of ansible
-  playbook
-* syncing with remote folder with/without ansible-playbook execution
-* execute playbook for category in order to have tags functionality (execution
-  one particular task/set of tasks from the whole playbook).
+* to form the "local" ansible role (about it later)
+
+* execute _beupdate.yml_ with _ansible-playbook_ with various options, like:
+
+    * with _--verbose_ command line option
+
+    * redirection of stdout to the specified file 
+
+    * send log lines to remote server in case of non-zero return code from
+      _ansible-playbook_ invocation.
+
+    * syncing with remote folder with/without re-execution of _ansible-playbook_
+
+    * execution of task(s) marked with certain tag.
+
+    * etc (see help message, _-h_ option).
 
 ## beupdate.yml and other playbooks.
-
-Briefly, the principle process of beupdate.yml playbook execution could be
+The principle process of _beupdate.yml_ playbook execution could be briefly
 described with the following steps:
 
 * At first, the following fact should be noticed: several playbooks are
-  statically included inside beupdate.yml. Ansible "include" has extremely
+  statically included inside _beupdate.yml_. Ansible __include__ statement has extremely
   static nature (C-like), therefore all included playbooks should exist at the
-  moment of ansible-playbook execution. As the results, at the end the one big
-  "virtual" playbook is executed.
+  moment of __parsing__ ansible playbooks. As the result, all playbokos are
+  combined in the one big "virtual" playbook, which is executed later.
 
-* after several preparational steps, acc_facts scripts is executed as an ansible
+* after several preparational steps, _acc_facts_ script is executed as an ansible
   module. This script exports certain veriables to ansible process (also
-  participation in various arrays of HOSTSsource) and among them is the __role__
+  participation in various arrays of _HOSTSsource_) and among them is the __role__
   variable.
 
-* group_by ansible module invocation with __role__ as a key. This creates the
+* __group_by__ ansible module invocation with __role__ as a key. This creates the
   full-featured ansible group with the name obtained from __role__ variable.
-  Each playbook: console.yml, server.yml, pvss.yml, etc - has the __hosts__
-  line, which defines the groups of hosts it corresponds with. As a result, the
-  with role, for example, "console" will execute the playbook with string
+  Each playbook: _console.yml_, _server.yml_, _pvss.yml_, etc - has the __hosts__
+  line, which defines the group of hosts it corresponds with. As a result, the
+  role, for example, "console" will execute the playbook with string
   "hosts: console" inside.
 
-* each particular playbook is relatively small, it contains the fixed role set:
-    
-    * base - base role is used by every category of the machine
-    * server - role is used by java servers (server.yml), pvss servers
+* each particular playbook is relatively small and contains the inclusions of
+  the roles:
+
+    * _base_ - base role is used by every category of the machine
+
+    * _server_ - role is used by java servers (server.yml), pvss servers
       (pvss.yml), etc.
-    * console - role is used by operational consoles (console.yml) and
+
+    * _console_ - role is used by operational consoles (console.yml) and
       virtual machines for developers.
+
     * some other roles with obvious names
-    * local - this role is used for per-host configuration and is rather special.
-      It is formed dynamically in be-ansible script by copying files and folders
+
+    * _local_ - this role is used for per-host configuration and is rather special.
+      It is formed dynamically by _be-ansible script_ by copying files and folders
       with pre-defined names from __/acc/sys/pca/<hostname>/playbook__ NFS directory to
       __/var/lib/ansible/roles/local__ on the local disk. Each playbook has this
-      role, even if there is not any specific per-host config, because ansible
-      __roles__ do not assume code existence, only the directory structure is
-      necessary.
+      role, even if there is no any specific config, because role functionality
+      of ansible does not enforce code existence, only the proper directory
+      structure is necessary.
 
-## anisble-massive
-
-This script is situated in ~pca/SYSADM/ansible-massive and was written for
-massive invocation of ansible on various hosts. For example:
+## ansible-massive
+This script is situated in __~pca/SYSADM/ansible-massive__ and was written for
+massive invocation of __ansible__ or __ansible-playbook__ executable on various hosts. For example:
 
 > $ ~pca/SYSADM/ansible-massive -r 'cwo-ccc-d' -u root -m shell 
 > -a 'rsync -q -a --delete --delete-excluded --exclude=.[a-zA-Z]*
 > /acc/sys/default/ansible /var/lib/'
 
-\- will execute rsync on all cwo-ccc-d* machines from
+\- will call __ansible__ and execute rsync on all cwo-ccc-d* machines from
   /acc/sys/Linux/hosts/hosts.masters file. Or
 
 > ~pca/SYSADM/ansible-massive -r 'cwo-ccc-a'
 
 \- will execute ansible ping module on the cwo-ccc-a* consoles.
-The playbooks are specified with __-p__ option. Any further information could be
+
+The playbooks should be specified with __-p__ option. Further information could be
 obtained from invocation of __ansible-massive__ without options or with __-h__
 option:
     
@@ -130,4 +161,4 @@ option:
 >      -l - list hosts which will participate in ansible action
 >           without doing anything on them.
 >      -h - this message
-    
+
