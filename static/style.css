@@ -35,7 +35,7 @@ blockquote { margin: 1em 3em;	color: #999; border-left: 2px solid #999; padding-
 
 #container2 { width: 100%; margin: 0 auto; }
 
-#content { padding-right: 10px; float: left; padding-top: 30px; padding-bottom: 70px; }
+#content { padding-right: 10px; float: left; padding-top: 10px; padding-bottom: 70px; }
 
 /* to use in _templates/tagcloud.html */
 #inline-list {margin: 1em; font-family: arial, sans-serif;}
@@ -75,7 +75,7 @@ _templates/blog/{year_archive.html,month_archive.html,archive.html, ... */
 
 ul.details { list-style: none; padding-left: 0px; padding-top: 0px;}
 ul.details li { clear: both; }
-ul.details h2 {margin-top: 0; font-size: 18px; padding-top: 0.5em;}
+ul.details h2 {margin-top: 0; font-size: 18px; padding-top: 1.5em;}
 ul.details h2 a { border: none; color:#666666; outline: none; }
 ul.details h2 a:visited { border: none; color:#666666; }
 ul.details li p span { font-size: 18px; }
