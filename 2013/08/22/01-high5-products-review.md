@@ -5,7 +5,7 @@ tags: high5
       review
       обзор
       питание
-summary: В данной заметке я хотел бы поделиться своим опытом использования напитков и гелей британской марки High 5.
+summary: Сегодня я хотел бы поделиться своим опытом использования напитков и гелей британской марки High 5. ![high5 logo](https://lh5.googleusercontent.com/-W9NGBfizrpY/Ujm2xNEOyxI/AAAAAAAAB1w/F_M2eyEbKjU/w571-h245-no/120719_High5-logo.jpg)
 
 Ниже представлен небольшой обзор спортивного питания High 5, протестированного
 и используемого мною вот уже как второй год.
@@ -22,6 +22,10 @@ __Timber_Wolf__, постоянного участника марафонов М
 Центрального региона в целом.
 
 ## Таблетки _High5 Zero_ и _Zero X-treme_
+
+![zero](https://lh3.googleusercontent.com/mOEXf6l2w6insmYl_enwFQZp5e5WVEMTFRTXxLpWf50=w414-h488-no)
+
+![zero extreme](https://lh3.googleusercontent.com/I5XGlPi5VaEtathC04AakHUu1uGuV5fI_nZd8ett_U8=w228-h488-no)
 
 Это абсолютно замечательный продукт. На мой взгляд, у него есть
 несколько принципиальных преимуществ перед традиционными "сладкими" напитками:
@@ -59,6 +63,10 @@ __Timber_Wolf__, постоянного участника марафонов М
 
 ## Напитки _High5 EnegrySource_: _2:1_, _2:1+_, _4:1_ с протеином, _X-Treme_
 
+![2:1](https://lh6.googleusercontent.com/Bos-DhaXJL90LVvwHnIhTEWolrYIu8TIBPuq6nWo0Mo=w396-h488-no)
+
+![4:1](https://lh3.googleusercontent.com/HnmaXEJrS7yOyGzW2wbop2ilEEboOjggQGnLofZDf20=w845-h488-no)
+
 Данные продукты в моей классификации попадают в категорию "сладкие напитки", а это
 значит, что я не горю желанием их использовать во время гонок и тренировок.
 Мой опыт их употребления следующий:
@@ -84,6 +92,8 @@ __Timber_Wolf__, постоянного участника марафонов М
 
 ## Напиток _High5 Recovery_
 
+![high5_recovery](https://lh4.googleusercontent.com/-I20d4tJidsk/Ujm2xrPNYzI/AAAAAAAAB1s/saLypmQ_4_E/s225-no/protein.jpeg)
+
 К сожалению, я не могу сказать ничего конкретного про этот продукт, т.к.
 использую аналогичный продукт от швейцарцев _Sponser_. Тем не менее, приведу
 комментарий _Timber_Wolf-a_, который его использует:
@@ -91,6 +101,8 @@ __Timber_Wolf__, постоянного участника марафонов М
 > мне понравился: это "какао напиток" приятный, заливаю молоком
 
 ## Гели _IsoGel_ и _IsoGel+_
+
+![high5_isogels](https://lh5.googleusercontent.com/-1qIdppGBISQ/Ujm2xAysVRI/AAAAAAAAB1g/wZAz3KNu7nI/s225-no/isogels.jpeg)
 
 Данные гели скорее похожи на сок, нежели чем на гели в классическом их
 понимании. Моя краткая характеристика:
@@ -113,6 +125,8 @@ __Timber_Wolf__, постоянного участника марафонов М
   что пьёшь своего рода горячий компот.
 
 ## Гель _EnergyGel_
+
+![high5_energygel](https://lh3.googleusercontent.com/-j7-01CUmJco/Ujm2xNcn7fI/AAAAAAAAB1c/2wRAi5S0pIA/s224-no/energy.jpeg)
 
 - По консистенции немного гуще предыдущей модели, и фасуются в упаковки по 30мл,
   что достаточно для одного потребления. 

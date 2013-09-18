@@ -1,12 +1,12 @@
-title: Hubs: Shimano XT M775 vs Hope Pro II Evo - my experience
+title: Hubs: Shimano XT M775 vs Hope Pro II Evo
 public: yes
 tags: hubs
       review
 summary: My usage experience of the eternal rivals of the MTB hub market.
 
 It just happened, that I have both pairs of hubs, and actually extensively used
-each of them in conditions of Jura Mountains. Here is my experience and my
-conclusion.
+each of them in conditions of Jura Mountains and Swiss amateur XC racing. Here
+is my experience and my conclusion.
 
 ## Weight.
 
@@ -26,6 +26,8 @@ smaller one? Obviously - somebody will think - the answer is:
 
 > Higher is better, because it gives shorter spokes, thus stiffer wheels.
 
+![rear diameter overview](https://lh5.googleusercontent.com/-glxYLHAKORw/UjmtE7PLftI/AAAAAAAABw0/gD87z89Q0pg/w640-h480-no/IMG_0534.JPG)
+
 *But* - there is always small *but* - there are at least two other factors,
 which influence the riding quality of final wheelbuild:
  
@@ -35,13 +37,17 @@ which influence the riding quality of final wheelbuild:
 - Bearing area of rim/spoke system on the hub itself. Wider is better, smaller
   is worse.
 
-Flanges of Shimano hubs are placed wider on the hub, and, due to smaller flange
-height, bracing angle is a bit - better. 
+![rear overview](https://lh4.googleusercontent.com/omNBYdS2UAAeU411SgMkKSBlDUBlrm0hFqaES_W2wL0=w595-h480-no)
+
+![front overview](https://lh5.googleusercontent.com/zdSCm5O3OH9TNR2HZudzHIJAnomIVZvjQpaottpUW4g=w477-h468-no)
+
+Flanges of Shimano hubs are placed a bit wider on the hub, and, due to smaller flange
+height, bracing angle is a bit better.
 
 Both Shimano and Hope hubs build just fine for 26 wheels, although I would
-prefer Shimano for 26, and probably Hope for 29.
+prefer Hope for 29.
 
-No clear winner here, but I do believe, construction of XT is better.
+No clear winner here.
 
 ## Freehub.
 
@@ -83,7 +89,11 @@ The Great Eternal Holywar - *sealed bearings* vs *cup and cone* system.
 I used both in very nasty conditions, very dirty ones, from time to time
 with liquid mud above the hubs - and Hope died first. There is minimal mud
 protection on the rear hub, and driveside freewheel bearing is just exposed to
-the mother nature, although I should admit it lasts long enough. Front hub
+the mother nature, although I should admit it lasts long enough.
+
+![hope exposed bearing](https://lh4.googleusercontent.com/-wcNyAZWk5yM/Ujmp2XGETAI/AAAAAAAABu8/1oKm5iwHMEU/w640-h480-no/IMG_0526.JPG)
+
+Front hub
 has minimal protection: only two caps. After one particularly dirty marathon -
 Extreme-sur-Loue in Ornans, France (the WC was there in the same time), the hubs
 just stopped spinning at all!
@@ -169,7 +179,7 @@ because:
 
 - personally, I prefer CL over 6-bolts
 
-- better angles for building
+- slightly better angles for building
 
 From the other site, if you prefer:
 
