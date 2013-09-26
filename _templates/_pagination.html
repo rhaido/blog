@@ -1,13 +1,12 @@
-<div class=pagination>
+<div id="pagination">
+  <ul>
   {% if pagination.has_prev -%}
-    <a href="{{ link_to(pagination.url_key, page=pagination.page - 1) }}">&laquo; Previous</a>
-  {%- else -%}
-    <span class=disabled>&laquo; Previous</span>
-  {%- endif %}{#
-  #} — <strong>{{ pagination.page }}</strong> — {#
-  #}{% if pagination.has_next -%}
-    <a href="{{ link_to(pagination.url_key, page=pagination.page + 1) }}">Next &raquo;</a>
-  {%- else -%}
-    <span class=disabled>Next &raquo;</span>
+    <li class="active"><a href="{{
+      link_to(pagination.url_key,page=pagination.page - 1) }}">&laquo; Newer Posts</a></li>
   {%- endif %}
+  {% if pagination.has_next -%}
+    <li class="active"><a href="{{
+      link_to(pagination.url_key,page=pagination.page + 1) }}">Older Posts &raquo;</a></li>
+  {%- endif %}
+  </ul>
 </div>

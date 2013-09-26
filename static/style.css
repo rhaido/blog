@@ -35,7 +35,7 @@ blockquote { margin: 1em 3em;	color: #999; border-left: 2px solid #999; padding-
 
 #container2 { width: 100%; margin: 0 auto; }
 
-#content { padding-right: 10px; float: left; padding-top: 10px; padding-bottom: 70px; }
+#content { padding-right: 10px; float: left; padding-top: 10px; padding-bottom: 40px; }
 
 /* to use in _templates/tagcloud.html */
 #inline-list {margin: 1em; font-family: arial, sans-serif;}
@@ -66,8 +66,8 @@ blockquote { margin: 1em 3em;	color: #999; border-left: 2px solid #999; padding-
 
 .dashed{ border-bottom: 1px dashed!important; }
 .uline{ border-bottom: 1px dashed!important; }
-.date{ font-size:11px; color:#ccc; padding-left:1px; }
-.summary{ color: #000; padding-top:5px; }
+.date{ font-size:11px; color:#ccc; padding-left:1px; padding-top: 5px; }
+.summary{color: #000; padding: 15px 0px 0px 10px;}
 .fwnormal{ font-weight: normal; }
 
 /* main class; wraps the content of navigation pages (non articles);
@@ -79,6 +79,7 @@ ul.details h2 {margin-top: 0; font-size: 18px; padding-top: 1.5em;}
 ul.details h2 a { border: none; color:#666666; outline: none; }
 ul.details h2 a:visited { border: none; color:#666666; }
 ul.details li p span { font-size: 18px; }
+ul.details li p img { display: block;  margin: 10px 0px 5px 0px; }
 
 ul.details ul { list-style: none; padding-left: 50px; padding-top: 0px;}
 ul.details ul li { padding-bottom: 0px; padding-top:7px; }
@@ -119,6 +120,7 @@ dl.tlist dd { margin-left: 10em; padding-top: 5px; color: #000; }
 #contacts dd { font-size: 1.5em; margin-bottom: .5em; white-space: nowrap; }
 
 /***************** Pagination Styles ******************/
-#pagination { width: 570px; padding-right: 10px; float: left; padding-top: 10px; padding-bottom: 0px; }
-#pagination li {border: 0; margin:0; font-size:11px; font-weight: bold; list-style:none;float:left;padding:3px 6px;}
+#pagination { width: 70%; float: left; padding-top: 40px; text-align: center;}
+#pagination ul {display: inline-table;}
+#pagination ul li {border: 0; margin:0; font-size:12px; font-weight: bold; list-style:none;float:left;padding:3px 6px;display: inline;}
 #pagination .active { border: 1px solid #DEDEDE;}

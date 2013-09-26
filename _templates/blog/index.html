@@ -8,10 +8,12 @@
   {%- for entry in pagination.get_slice() %}
   {%- if entry.public[0] == "yes" -%}<li><h2><a href="{{ link_to('page',slug=entry.slug) }}" class="uline">{{ entry.title }}</a></h2>
     {% if entry.summary -%}
-    <div class="summary">{{ entry.render_summary() }}</div>
+    <div class="summary">
+      {{ entry.render_summary() }}
+      <p class="date">written on {{ format_date(entry.pub_date,format='medium')}}</p>
+    </div>
     {%- endif -%}
-    <p class="date">written on {{ format_date(entry.pub_date, format='medium')
-    }}</p></li>{%- endif -%}
+    </li>{%- endif -%}
   {%- endfor -%}  
   </ul>
 
