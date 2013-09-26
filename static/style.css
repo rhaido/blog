@@ -120,7 +120,8 @@ dl.tlist dd { margin-left: 10em; padding-top: 5px; color: #000; }
 #contacts dd { font-size: 1.5em; margin-bottom: .5em; white-space: nowrap; }
 
 /***************** Pagination Styles ******************/
-#pagination { width: 70%; float: left; padding-top: 40px; text-align: center;}
+#pagination { width: 95%; float: left; padding-top: 40px; text-align: center;}
 #pagination ul {display: inline-table;}
-#pagination ul li {border: 0; margin:0; font-size:12px; font-weight: bold; list-style:none;float:left;padding:3px 6px;display: inline;}
-#pagination .active { border: 1px solid #DEDEDE;}
+#pagination ul li {border: 0; margin:0; font-size:12px; font-weight: bold; list-style:none;float:left;display: inline;}
+#pagination ul li a {padding:3px 6px; border: 1px solid #ccc;}
+#pagination ul li a:hover { border: 1px solid #EBA34A;}
