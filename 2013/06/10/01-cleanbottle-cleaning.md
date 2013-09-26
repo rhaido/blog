@@ -1,9 +1,9 @@
 title: Cleaning Cleanbottle
 public: yes
 tags: cleanbottle
-summary: Yesterday I decided to copletely cleanup from moding my cleanbottle bottles.
+summary: Yesterday I decided to completely clean up from molding my cleanbottle bottles.
 
-Cleanbottle - is a great bottle, which I use on daily basis for my road
+Cleanbottle - is a great bottle. I use it on a daily basis for my road
 trainnigs (unfortunately, I can not recommend to use it for mtb riding). Its
 main feature is removable bottom lid, and that is great for keeping your bottles
 as clean as possible, but, as we all know, everything is in balance in this
