@@ -2,8 +2,6 @@ title: La Forestiere
 public: yes
 tags: la forestiere
       marathon
-      season
-      plans
 summary: This french marathon is worth to visit: it combines the best creams of MTB in Franche-Comte and Ain!
 
 On the 22nd of September, for the first time (and hope not the last!!!!) in my life, I've done

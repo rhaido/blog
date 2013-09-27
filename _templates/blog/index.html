@@ -6,7 +6,7 @@
 {% block body %}
   <ul class="details">
   {%- for entry in pagination.get_slice() %}
-  {%- if entry.public[0] == "yes" -%}<li><h2><a href="{{ link_to('page',slug=entry.slug) }}" class="uline">{{ entry.title }}</a></h2>
+  {%- if entry.public[0] == "yes" -%}<li><h2><a href="{{link_to('page',slug=entry.slug) }}">{{ entry.title}} &crarr;</a></h2>
     {% if entry.summary -%}
     <div class="summary">
       {{ entry.render_summary() }}

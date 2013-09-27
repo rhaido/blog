@@ -17,7 +17,7 @@ abbr,acronym{ border-bottom: 1px dotted; cursor: help; }
 legend{ display: none; }
 
 a:link { color: #EBA34A; border-bottom: none; outline:none }
-a:visited { color: #EBA34A; border-bottom: none; }
+a:visited { color: #EBA34A; }
 a:hover { border-bottom: 1px dotted; }
 a:active { color:#940000; }
 
@@ -76,8 +76,9 @@ _templates/blog/{year_archive.html,month_archive.html,archive.html, ... */
 ul.details { list-style: none; padding-left: 0px; padding-top: 0px;}
 ul.details li { clear: both; }
 ul.details h2 {margin-top: 0; font-size: 18px; padding-top: 1.5em;}
-ul.details h2 a { border: none; color:#666666; outline: none; }
-ul.details h2 a:visited { border: none; color:#666666; }
+ul.details h2 a { color:#666666; outline: none; }
+ul.details h2 a:visited { color:#666666; }
+ul.details h2 a:active { color:#940000; }
 ul.details li p span { font-size: 18px; }
 ul.details li p img { display: block;  margin: 10px 0px 5px 0px; }
 
