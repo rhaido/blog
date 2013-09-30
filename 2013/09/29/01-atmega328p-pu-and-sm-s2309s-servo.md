@@ -1,18 +1,18 @@
-title: Atmega 328p-pu microcontroller and SM-S2309S servo motor
+title: ATmega328P microcontroller and SM-S2309S servo motor
 public: yes
 tags: avr
       servo
       arduino
 summary: I finally found the correct frequencies for SM-S2309S servo motor!
 
-While trying to implement lesson 05 from arduino book in pure C, I was not being
-able to make this bloody servo - SM-S2309S - to work properly. And I
-would say, this model lacks the correct datasheet. The book from starter kit
-states, that the pulse widths should be in-between 1 ms and 2ms for 0&deg; - 180&deg;
-rotation, which is incorrect, if you
-want to have real 180&deg; rotation. In reality, the pulse widths  between 0.477ms
-and 2.15ms for practically 178&deg; of the rotation controlled by potentiometer,
-which is connected to PC0/ADC0 port.
+While trying to implement the fifth lesson from arduino book from official
+starter kit in pure C, I was not being
+able to make this bloody servo - SM-S2309S - to work properly: to turn back and
+forth for 180&deg;. The book states, that the pulse widths should be
+in-between 1 ms and 2 ms for 0&deg; - 180&deg; rotation, which is incorrect, if you
+want to have real 180&deg; rotation with this servo. In reality, the pulse
+widths are between 0.477ms and 2.15ms for practically 178&deg; of the rotation
+controlled by potentiometer, which is connected to PC0/ADC0 port.
 
 Potentiometer is read via PC0 (Analog Input 0 of Arduino board), and servo is
 controlled through PB1 (Digital Port 9) with fastPWM mode on it.
@@ -94,6 +94,17 @@ void PWM16_init(){
 In your code, pay attention to the TCCR1A & TCCR1B initialization - incorrect
 prescaling settings could lead to absolutely unpredictable result. I've got an
 error like this - as a result, I went to sleep with my servo not working, and
-only the next day I realized, that I had initialized wrong bits.
+only the next day I realized, that I had initialized wrong bits in TCCR1A
+register.
+
+Full source code could be found
+[here](https://github.com/rhaido/arduino-lessons/tree/master/project05).
+
+Useful reading:
+
+* [Wikipedia](http://en.wikipedia.org/wiki/Servo_control)
+* [Extremeelectronics.co.in](http://extremeelectronics.co.in/avr-tutorials/servo-motor-control-by-using-avr-atmega32-microcontroller/)
+* [Atmel ATmega328P datasheet in PDF](www.atmel.com/Images/doc8161.pdf)
 
 Have a good time!
+
