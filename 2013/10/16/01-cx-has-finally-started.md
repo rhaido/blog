@@ -1,7 +1,7 @@
 title: First 'Cross weekends
 public: yes
 tags: cx
-summary: Brief reviews of the first two CX races of the season.
+summary: Brief reviews of the first two CX races of the season. ![run up](/static/img/2013/10/12/155354IMG_5266.JPG)
 
 ## 05.10.2013 - Cormoz, Ain, France
 
@@ -55,7 +55,21 @@ As a quick resumé, I'd like to re-post and remember some useful thoughts, which
 > lows higher; to exhibit a consistently positive mental approach to both training
 > and everyday life regardless of the results in any particular race. 
 
-
 That's all for the moment!
 
 Stay connected and happy crossing :)
+
+UPD: Finally, I was able to find some photos from 'cross of Bourg-en-Bresse:
+
+![photo1](/static/img/2013/10/12/153555IMG_5167.JPG)
+
+![photo2](/static/img/2013/10/12/153807IMG_5177.JPG)
+
+![photo3](/static/img/2013/10/12/154319IMG_5205.JPG)
+
+![photo4](/static/img/2013/10/12/155354IMG_5266.JPG)
+
+Many thanks to [Crans Cycles, André
+Cavazzana](http://www.crancycles.com/index.php?page=news&action=acceuil) for the
+photos!
+
