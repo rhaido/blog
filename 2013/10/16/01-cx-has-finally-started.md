@@ -1,6 +1,8 @@
 title: First 'Cross weekends
 public: yes
-tags: cx
+tags: cyclocross
+      cormoz
+      bourg-en-bresse
 summary: Brief reviews of the first two CX races of the season. ![run up](/static/img/2013/10/12/155354IMG_5266.JPG)
 
 ## 05.10.2013 - Cormoz, Ain, France
