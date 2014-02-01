@@ -1,7 +1,8 @@
 title: ERD Measurement Using the Elastic Band
 public: yes
 tags: wheelbuilding
-summary: Neat trick which frees your hands.![el_band](http://blog.grozak.com/galleries/erd_measurement/IMG_1166.JPG)
+summary: Neat and simple trick which simplifies the operation and improves the
+precision.![el_band](http://blog.grozak.com/galleries/erd_measurement/IMG_1166.JPG)
 
 Being an amature wheelbuilder, you must really carefully measure the rim's ERD
 (effective rim diameter), which is the fundament of the success.
