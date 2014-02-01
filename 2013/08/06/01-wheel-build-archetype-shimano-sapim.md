@@ -1,6 +1,6 @@
 title: New wheel build - H+Son Archetype and polished Shimano old-school hubs
 public: yes
-tags: wheel building
+tags: wheelbuilding
       h+son
       shimano
       sapim
