@@ -74,29 +74,34 @@ without any noticable heating of the handle:
 
 ![base_of_the_element](http://blog.grozak.com/galleries/antex_tcs230/04_IMG_1302.JPG)
 
-At the end, it works despite all the horror inside.
+At the end, it works despite all the horror inside. I can also add, that the
+soldering iron with PVC cable is extremely uncomfortable to work - sometime PVC
+cable simply outweights the iron in the stand! That's very bad and can lead to
+unexpected results, like burnt floor.
 
 Anyway, after I've noticed all these rubbish, I started to feel really
-upset. For the same money - more or less - I could buy Goot PX-201 or Hakko FX-600
-or Weller W 61 - and these irons at least look much nicer! The
-interested person can find without any problems the photos of Goot's PCB -
+upset. For the same money - more or less - I could buy [Goot
+PX-201](http://toolboom.com/en/Temperature-Controlled-Soldering-Iron-GOOT-PX-201.php)
+ or [Hakko FX-600](https://www.hakko.com/english/products/hakko_fx600.html)
+or [Weller W 61](http://www.weller.de/products/product.php?pid=826) -
+and these irons at least look much nicer! The interested person can find without
+any problems [photos of Goot's internals](http://easyelectronics.ru/payalnik-goot-px-201.html) -
 well-made and quality soldering, accurate and clean. Also I'm
 feeling, that nowadays, even if you are ready to pay reasonable money for the
 instrument from well-known brand, - don't tell me, that Antex is not! - it
-doesn't mean at all, that you receive the proportional quality! In this
-situation, I really start to think, that maybe I should switch to the tools from
-chinese manufacturese - the quality from some brands, like Quick or Atten, seems
-to be decent with the acceptable price tag.
+doesn't mean at all, that you receive the proportional quality! This tool is
+supposed to be made in the UK - if it's true and if it's a trend, we are in a big
+trouble, colleagues!
 
-This tool is supposed to be made in the UK - if it's true and if it's a trend,
-we are in a big trouble, colleagues!
-
-One more time - I was always protecting the point of view, that people
-should by good tools - but in a situation, that you can not beleive really to
-the brand name and the promises, what rests? How can I personally recommend this tool to my
-friend, when the price is not proportional to quality you receive? Of course I
-won't! Now I really start to understand the real reason of the popularity of
-chinese products - at least, there are no illusions.
+In this situation, I really start to think about switching to the tools from
+chinese manufacturese - from certain brands, like Quick or Atten, the quality seems
+to be decent with the acceptable price tag. One more time - I was always protecting
+the point of view, that people should by good tools - but in a situation, that
+you can not beleive really to the brand name and the promises, what rests? How
+can I personally recommend this tool to my friend, when the price is not
+proportional to quality you receive? Of course I won't! Now I really start to
+understand the real reason of the popularity of chinese products - at least,
+there are no illusions.
 
 Thank you for looking at this small article and have a good day! 
 
