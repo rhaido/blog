@@ -18,11 +18,11 @@ speed through the corners.
 There was just 14 participants, so even small jams can not really affect your
 time. The start was not bad, all riders were quickly distributed all over the
 track after the first half, and time trial on the wed and deep grass started.
-One more time I realized, that the lap could really change after couple of laps
-under the wheels of senior category. I was fixed on the 8th position, not being
-able to approach myself to the 7th position, and on penultimate lap I got lapped
-by Julien Maitre and Lionel Genthon, who were fighting for the 1st and 2nd place,
-effectively ending my race.
+One more time I realized, that the track can really change after couple of laps
+under the wheels of senior category, requiring chaging tactics. I was fixed on
+the 8th position, not being able to approach myself to the 7th position, and
+on penultimate lap I was passed by Julien Maitre and Lionel Genthon, who were
+fighting for the 1st and 2nd place, effectively ending my race.
 
 And what about the basics? The basics, which have been hardly studied from this race,
 are:
@@ -53,7 +53,7 @@ Running can be damn better than slowly pushing uphill on a bike.
 
 Although the cross is all about your physics, technical skills and strategy, it
 also, like the majority things in life, influenced by luck, it presence or
-absence. Effectively, I had everything to had a good race: there were 80 participants
+absence. Effectively, I've got everything to have a good race: there were 80 participants
 in the race, I've started from the 4th line; the single chainring system worked
 flawlessly, and I was fully concentraced on riding track cleanly and slowly
 progressing, but the small stone, jammed between the derailleur cage and the pulley
