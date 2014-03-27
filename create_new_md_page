@@ -1,0 +1,49 @@
+#!/bin/bash
+
+function usage(){
+
+  _date="$(date +%Y/%m/%d)"
+
+  echo "$0: [ -f <FILE NAME> | -t <TITLE> | -a <space separated tags> | -n | -s <SUMMARY> | -c ]"
+  echo "    -f - together with -c redirects the output to a file $_date/<FILE NAME>"
+  echo "    -n - makes it non-public"
+  echo "    -c - creates the directory $_date"
+}
+
+PUBLIC="y"
+
+while getopts "a:cf:hnps:t:" option
+do
+  case $option in
+    'f') FNAME="$OPTARG";;
+    't') TITLE="$OPTARG";;
+    'a') TAGS="$OPTARG";;
+    'n') PUBLIC="n";;
+    's') SUMMARY="$OPTARG";;
+    'h') usage; exit 0;;
+    'c') _date="$(date +%Y/%m/%d)"; mkdir $_date;;
+    *) usage; exit 100;;
+  esac
+done
+
+[[ -n "$FNAME" && -n "$_date" && -d "$_date" ]] && exec >$_date/$FNAME
+
+echo "tite: $TITLE"
+echo -n "tags: "
+k=0
+
+if [[ -n "$TAGS" ]]; then
+  for i in $TAGS
+  do
+    [[ $k == 0 ]] && echo $i && k=1 || echo "      $i"
+  done
+else
+  echo
+fi
+
+[[ "$PUBLIC" == "n" ]] && echo "public: no" || echo "public: yes"
+
+echo
+echo "summary: $SUMMARY"
+
+
