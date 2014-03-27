@@ -21,14 +21,14 @@ do
     'n') PUBLIC="n";;
     's') SUMMARY="$OPTARG";;
     'h') usage; exit 0;;
-    'c') _date="$(date +%Y/%m/%d)"; mkdir $_date;;
+    'c') _date="$(date +%Y/%m/%d)"; [[ ! -d "$_date" ]] && mkdir $_date;;
     *) usage; exit 100;;
   esac
 done
 
 [[ -n "$FNAME" && -n "$_date" && -d "$_date" ]] && exec >$_date/$FNAME
 
-echo "tite: $TITLE"
+echo "title: $TITLE"
 echo -n "tags: "
 k=0
 
@@ -43,7 +43,6 @@ fi
 
 [[ "$PUBLIC" == "n" ]] && echo "public: no" || echo "public: yes"
 
-echo
 echo "summary: $SUMMARY"
 
 
