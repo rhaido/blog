@@ -1,12 +1,14 @@
-title: Ansible Empire - BEupdate way
+title: How to Build Your Own Ansible Empire
 public: no
 tags: ansible
-      beupdate
+      devops
+      system management
 summary: Here I am trying to give brief summary about current BE/CO ansible structure, its advantages and disadvantages
 
 ## Code storage
-You can find playbooks and roles in __/acc/sys/default/ansible__. As usually, the
-*cs-ccr-feop* is a primary source of knowledge. The auxiliary playbooks and
+You can find playbooks and roles in __/acc/sys/default/accadm/ansible__. As usually, the
+*cs-ccr-feop* is a primary source of knowledge, but the GIT repository itself
+lives in **accadmgit@cs-ccr-felab.cern.ch:/local/home/accadmgit/accadm.git**. The auxiliary playbooks and
 scripts situated outside of this directory are:
 
   * __/acc/sys/slc6/adm/acc-bootstrap.yml__ - bootstrapping playbook
@@ -14,8 +16,8 @@ scripts situated outside of this directory are:
   * __/acc/sys/slc6/adm/acc-migration2ans.yml__ - playbook to migrate BEupdate
     machine.
 
-  * __~pca/SYSADM/ansible-massive__ - massive execution of either ansible or ansible
-    playbook depending on the options
+  * __~pca/SYSADM/ansible-massive__ - massive execution of either *ansible* or
+    *ansible-playbook* depending on the options
 
 ## Bootstrapping process
 
@@ -33,9 +35,9 @@ step):
 
 1. Execution of BEinstall script from _/etc/rc.local_
 
-    2. Ansible installation from epel and its fast configuration
+    2. Ansible installation from epel and its configuration
 
-    2. ansible-playbook execution with __/acc/sys/slc6/adm/acc-bootstrap.yml__, which does:
+    2. Execution of __/acc/sys/slc6/adm/acc-bootstrap.yml__ by ansible playbook, which does:
 
         * configuration of automounter
 
@@ -52,49 +54,50 @@ step):
        same time
 
 ## be-ansible
-This script is a wrapper around _ansible-playbook_ executable. Its main goals
-are:
+This script is a wrapper around _ansible-playbook_ executable. Its main
+functions are:
 
-* to form the "local" ansible role (about it later)
+* to form the "local" ansible role (described later)
 
-* execute _beupdate.yml_ with _ansible-playbook_ with various options, like:
+* execution of _beupdate.yml_ with _ansible-playbook_ with various options, like:
 
     * with _--verbose_ command line option
 
     * redirection of stdout to the specified file 
 
-    * send log lines to remote server in case of non-zero return code from
-      _ansible-playbook_ invocation.
+    * sending reports to a remote server in case of non-zero return code from
+      _ansible-playbook_ execution.
 
-    * syncing with remote folder with/without re-execution of _ansible-playbook_
+    * synchronization with _/acc/sys/default/ansible_ with or without re-execution of _ansible-playbook_
 
-    * execution of task(s) marked with certain tag.
+    * execution of task(s) marked with certain tag
 
-    * etc (see help message, _-h_ option).
+    * etc (execute with _-h_ for the help message)
 
 ## beupdate.yml and other playbooks.
-The principle process of _beupdate.yml_ playbook execution could be briefly
-described with the following steps:
+The principle process of the _beupdate.yml_ execution could be briefly
+described by the following steps:
 
-* At first, the following fact should be noticed: several playbooks are
+* At first, the following fact should be noted: several playbooks are
   statically included inside _beupdate.yml_. Ansible __include__ statement has extremely
-  static nature (C-like), therefore all included playbooks should exist at the
-  moment of __parsing__ ansible playbooks. As the result, all playbokos are
-  combined in the one big "virtual" playbook, which is executed later.
+  static nature (C-like), therefore all included files should exist at the
+  moment of __parsing__ ansible playbooks. At the end, all playbooks are
+  combined in the one big "virtual" playbook, which is executed further.
 
 * after several preparational steps, _acc_facts_ script is executed as an ansible
-  module. This script exports certain veriables to ansible process (also
-  participation in various arrays of _HOSTSsource_) and among them is the __role__
-  variable.
+  module. It exports certain veriables to ansible process (also
+  participation in various arrays of _HOSTSsource_) and among them is the
+  __\_type__ variable, which contains the type of the machine in ACC world.
 
-* __group_by__ ansible module invocation with __role__ as a key. This creates the
-  full-featured ansible group with the name obtained from __role__ variable.
+* Execution of the __group_by__ module with __\_type__ as a key. This creates the
+  full-featured ansible group, which matches the certain playbook.
   Each playbook: _console.yml_, _server.yml_, _pvss.yml_, etc - has the __hosts__
-  line, which defines the group of hosts it corresponds with. As a result, the
-  role, for example, "console" will execute the playbook with string
-  "hosts: console" inside.
+  line, which defines the key, which is used for matching. As a result, the host
+  with has the __\_type__ set to 'console', will execute the tasks, which has
+  __hosts__ line set to 'console', i.e. the the playbook __console.yml__ in our
+  case, because it has a string "hosts: console" inside.
 
-* each particular playbook is relatively small and contains the inclusions of
+* each particular playbook is relatively small physically and contains the inclusions of
   the roles:
 
     * _base_ - base role is used by every category of the machine
@@ -105,11 +108,11 @@ described with the following steps:
     * _console_ - role is used by operational consoles (console.yml) and
       virtual machines for developers.
 
-    * some other roles with obvious names
+    * some other roles with the obvious names
 
-    * _local_ - this role is used for per-host configuration and is rather special.
-      It is formed dynamically by _be-ansible script_ by copying files and folders
-      with pre-defined names from __/acc/sys/pca/<hostname>/playbook__ NFS directory to
+    * _local_ - this role is used for per-host configuration and is rather specific.
+      It is formed dynamically by _be-ansible_ by copying necessary files and folders
+      with pre-defined names from __/acc/sys/pca/<hostname>/__ NFS directory to
       __/var/lib/ansible/roles/local__ on the local disk. Each playbook has this
       role, even if there is no any specific config, because role functionality
       of ansible does not enforce code existence, only the proper directory
@@ -119,9 +122,7 @@ described with the following steps:
 This script is situated in __~pca/SYSADM/ansible-massive__ and was written for
 massive invocation of __ansible__ or __ansible-playbook__ executable on various hosts. For example:
 
-> $ ~pca/SYSADM/ansible-massive -r 'cwo-ccc-d' -u root -m shell 
-> -a 'rsync -q -a --delete --delete-excluded --exclude=.[a-zA-Z]*
-> /acc/sys/default/ansible /var/lib/'
+> $ ~pca/SYSADM/ansible-massive -r 'cwo-ccc-d' -u root -m shell -a 'rsync -q -a --delete --delete-excluded --exclude=.[a-zA-Z]* /acc/sys/default/ansible /var/lib/'
 
 \- will call __ansible__ and execute rsync on all cwo-ccc-d* machines from
   /acc/sys/Linux/hosts/hosts.masters file. Or
