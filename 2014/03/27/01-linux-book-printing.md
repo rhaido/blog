@@ -89,5 +89,11 @@ do
 done
 
 ```
+
 That's it. Now you have all the tools to become a guru of a book printing in
 Linux.
+
+## Useful Links
+1. [Very good guide to pstops](http://www.novell.com/documentation/suse91/suselinux-adminguide/html/ch06s08.html)
+1. [Amature book printing and binding from TuxGraphics](http://tuxgraphics.org/npa/book-binding/)
+
