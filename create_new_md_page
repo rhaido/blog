@@ -21,7 +21,7 @@ do
     'n') PUBLIC="n";;
     's') SUMMARY="$OPTARG";;
     'h') usage; exit 0;;
-    'c') _date="$(date +%Y/%m/%d)"; [[ ! -d "$_date" ]] && mkdir $_date;;
+    'c') _date="$(date +%Y/%m/%d)"; [[ ! -d "$_date" ]] && mkdir -p $_date;;
     *) usage; exit 100;;
   esac
 done
