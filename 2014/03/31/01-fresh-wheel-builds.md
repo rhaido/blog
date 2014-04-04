@@ -16,6 +16,8 @@ colleague Mark Buttner. Here is the spec:
 I can not say the build was a particularly easy one, but the result seems to be
 fine and looks great.
 
+![tune_and_mavic](http://blog.grozak.com/galleries/wheels/mavic_cosmic_carbon_tune_1.JPG)
+
 Initially the wheels were was all wrong:
 twisted spokes here and there demonstrated the absence of the special
 holding key for bladed spokes, resulting in a simply ugly build. When I dismantled the
