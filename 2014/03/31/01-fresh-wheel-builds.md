@@ -16,13 +16,22 @@ colleague Mark Buttner. Here is the spec:
 I can not say the build was a particularly easy one, but the result seems to be
 fine and looks great.
 
-Initially, from my point of view, it was all wrong:
-twisted bladed spokes here and there demonstrated the absence of special
-spoke holding key, resulting in a simply ugly build. When I dismantled the
-wheel, it turned out, that the initial builder used just simple alu nipples,
-turned upside down, which is absolutely wrong - you need special either hex or
-square brass nipple for such kind of thinks, this specially prepared head. I
-used the brass Sapim ones, as I'm fed up with oxidized alu nipples here and
-there.
+Initially the wheels were was all wrong:
+twisted spokes here and there demonstrated the absence of the special
+holding key for bladed spokes, resulting in a simply ugly build. When I dismantled the
+wheel, it was found that the initial builder had used traditional alu nipples,
+turned upside down, which is **absolutely** wrong - you are obliged to use special type of
+nipples with a head prepared for the rim with the internal nipples.
+As I think a weight gain from alu nipples doesn't worth a
+hassle it produces in future, I've used the brass Sapim nipples.
 
-As you might se
+For the moment, my friend is happy and I'm waiting for his feedback from using
+of them. Meanwhile, I've done some nice shots of them:
+
+![tune_and_mavic](http://blog.grozak.com/galleries/wheels/mavic_cosmic_carbon_tune_2.JPG)
+
+![tune_and_mavic](http://blog.grozak.com/galleries/wheels/mavic_cosmic_carbon_tune_3.JPG)
+
+![tune_and_mavic](http://blog.grozak.com/galleries/wheels/mavic_cosmic_carbon_tune_4.JPG)
+
+That's it!
