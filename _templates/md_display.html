@@ -18,7 +18,7 @@
 
   {% if ctx.tags %}
   <div id="tags">
-  <p>Tags:
+  <p>Categories:
     {% for tag in ctx.tags|sort(case_sensitive=true) %}
       {%- if not loop.first and not loop.last %}, {% endif -%}
       {%- if loop.last and not loop.first %} and {% endif %}

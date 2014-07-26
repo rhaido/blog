@@ -67,7 +67,7 @@ blockquote { margin: 1em 3em;	color: #999; border-left: 2px solid #999; padding-
 .dashed{ border-bottom: 1px dashed!important; }
 .uline{ border-bottom: 1px dashed!important; }
 .date{ font-size:11px; color:#ccc; padding-left:1px; padding-top: 5px; }
-.summary{color: #000; padding: 15px 0px 0px 10px;}
+.summary{color: #000; padding: 15px 0px 0px 10px; font-size: 14px;}
 .fwnormal{ font-weight: normal; }
 
 /* main class; wraps the content of navigation pages (non articles);
@@ -85,11 +85,10 @@ ul.details li p img { display: block;  margin: 10px 0px 5px 0px; }
 ul.details ul { list-style: none; padding-left: 50px; padding-top: 0px;}
 ul.details ul li { padding-bottom: 0px; padding-top:7px; }
 ul.details ul li h2 { margin-top: 0;margin-bottom: 0.5em; padding-top: 10px; }
-ul.details ul li h2 a { color: #EBA34A; font-size: 16px; }
-ul.details ul li h2 a:link { color: #EBA34A; border-bottom: 1px solid; outline: none }
-ul.details ul li h2 a:visited { color: #EBA34A; border-bottom: 1px solid; outline: none; }
+ul.details ul li h2 a { color: #EBA34A; font-weight: bold; outline:none; }
 ul.details ul li h2 a:hover { border-bottom: 1px dotted; }
 ul.details ul li h2 a:active { color:#940000; }
+ul.details ul li p a { font-size: 18px; }
 
 /**************** images styles ****************/		
 a img{ border: none; }
