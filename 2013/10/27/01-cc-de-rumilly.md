@@ -1,8 +1,6 @@
 title: Cyclocross de Rumilly 27.10.2013
 public: yes
 tags: cyclocross
-      rumilly
-      france
 summary: Lows and highs of cyclocross exemplified by one race in France.
 
 The race itself was fun, from one point of view, and a disaster from the

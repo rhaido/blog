@@ -1,9 +1,6 @@
 title: Cyclocross de Hautecourt-Romanèche and Cyclocross de Voiron
 public: yes
 tags: cyclocross
-      hautecourt-romanèche
-      voiron
-      basics
 summary: Two interesting and difficult races, each one with its "originalité".
 
 ## Hautecourt-Romanéche, Ain, 09.11.2013
