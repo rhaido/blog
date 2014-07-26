@@ -1,10 +1,6 @@
 title: New Mavic XM 819 true-UST rims - on the scales!
 public: yes
-tags: mavic
-      ust
-      rim
-      tubeless
-      on the scales
+tags: wheels
 summary: New generation is lighter and really nicer.![extrusion](http://blog.grozak.com/galleries/xm819-new/03-rim-extrusion.jpg)
 
 Last year I decided to completely abandon Stan's world, because for me true UST

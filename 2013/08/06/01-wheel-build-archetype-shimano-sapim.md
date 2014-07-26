@@ -1,9 +1,6 @@
 title: New wheel build - H+Son Archetype and polished Shimano old-school hubs
 public: yes
-tags: wheelbuilding
-      h+son
-      shimano
-      sapim
+tags: wheels
 summary: Latest and greatest road wheelbuild with Archetypes, Shimano and Sapim Race spokes.![hubs_closer](https://lh3.googleusercontent.com/-mrsWCH4Dh7M/UgDFHBhBULI/AAAAAAAABqQ/K5R00GVqv28/w750-h563-no/photo.jpg)
 
 Finally, the dream to have and ride polished silver wheelset has come true in the image of

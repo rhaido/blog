@@ -1,5 +1,5 @@
 title: Lightweight build: Mavic Cosmic SSC rims and Tune hubs
-tags: wheelbuilding
+tags: wheels
 public: yes
 summary: It is my first lightweight build with low number of spokes.![tune_and_mavic](http://blog.grozak.com/galleries/wheels/mavic_cosmic_carbon_tune_1.JPG)
 

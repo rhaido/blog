@@ -1,7 +1,6 @@
 title: Pressure in my tires
 public: yes
-tags: tire
-      pressure
+tags: wheels
 summary: Before I went to sleep, I'd checked the tire pressure of my MTB bike...
 
 * Rear wheel: 1.27 Bar = 18.42 PSI

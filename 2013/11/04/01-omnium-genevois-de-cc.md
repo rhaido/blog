@@ -1,6 +1,6 @@
 title: 51ème Omnium Genevois de Cyclo-Cross, 02.11.2013
 public: yes
-tags: cyclocross
+tags: cx
 summary: Surprisingly technical and physically challenging race.![uphill_running](/static/img/2013/11/04/161505IMG_6799.JPG)
 
 Although it was a heavy rain in the morning of the race, promising if not the

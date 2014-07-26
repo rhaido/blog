@@ -2,8 +2,6 @@ title: My review of Antex TCS 230 soldering iron
 public: yes
 tags: tools
       soldering
-      antex
-      electronics
 summary: Quick and honest review of Antex TCS230 - temperature controlled soldering iron. ![pcb](http://blog.grozak.com/galleries/antex_tcs230/IMG_1277.JPG)
 
 Recently I've started to study electronics, and immediately I realised, that I

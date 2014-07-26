@@ -1,6 +1,6 @@
 title: Cyclocross de Cessy
 public: yes
-tags: cyclocross
+tags: cx
 summary: Cyclocross de Cessy, Championats de l'Ain; the 21st overall position, with hopes for better time :) ![funny_face](/static/img/2013/10/20/131019284.jpg)
 
 ## 19.10.2013 - Cessy, Ain, France

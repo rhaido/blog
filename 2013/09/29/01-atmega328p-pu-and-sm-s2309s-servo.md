@@ -1,8 +1,6 @@
 title: ATmega328P microcontroller and SM-S2309S servo motor
 public: yes
 tags: avr
-      servo
-      arduino
 summary: I finally found the correct frequencies for SM-S2309S servo motor!
 
 While trying to implement the fifth lesson from arduino book from official

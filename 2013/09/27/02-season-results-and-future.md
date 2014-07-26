@@ -1,8 +1,6 @@
 title: Season, Results and Future
 public: yes
-tags: results
-      season
-      plans
+tags: racing
 summary: It's was quite a strange season, and anyway, I'm glad that I sustained it :)
 
 Yep-yep-yep, this season was quite interesting from one side and strange from the other

@@ -1,7 +1,6 @@
 title: Спуск "на ногах"
 public: yes
-tags: xc
-      downhill
+tags: skills
 summary: Полезная мысль про технику спуска на байке, автор - Николай Пухирь.
 
 Взято [отсюда](http://twentysix.ru/blog/RaceStar/107491.html), автор - Николай

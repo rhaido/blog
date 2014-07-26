@@ -5,8 +5,8 @@
 {% block title %}Entries tagged “{{ tag.name }}”{% endblock %}
 
 {% block body %}
-  <ul class="details"><li><h2 class="fwnormal">tag::<a
-      href="#" class="uline">{{ tag.name }}</a>:</h2>
+  <ul class="details"><li><h2 class="fwnormal">::&nbsp;<a
+      href="#" class="uline">{{ tag.name }}</a></h2>
   <ul>
   {%- for entry in entries %}
     <li><p><a href="{{ link_to('page', slug=entry.slug) }}" class="uline">{{entry.title }}</a></p>

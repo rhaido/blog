@@ -1,7 +1,6 @@
 title: Hubs: Shimano XT M775 vs Hope Pro II Evo
 public: yes
-tags: hubs
-      review
+tags: wheels
 summary: My usage experience of the eternal rivals of the MTB hub market.
 
 It just happened, that I have both pairs of hubs, and actually extensively used

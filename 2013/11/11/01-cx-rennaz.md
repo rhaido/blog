@@ -1,6 +1,6 @@
 title: Cyclocross de Rennaz, race report and gallery
 public: yes
-tags: cyclocross
+tags: cx
 summary: Although Switzerland is more famous for its MTB stars, the cyclocross is also powerfull in this small mountainous country.![](http://blog.grozak.com/galleries/cx_rennaz_2013/IMG_0722-crop.JPG)
 
 The the next there was UCI C2 in Rennaz, canton Valais of Switzerland. The

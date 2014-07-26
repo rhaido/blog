@@ -1,10 +1,6 @@
 title: Небольшой обзор напитков и гелей High5
 public: yes
-tags: high5
-      nutrition
-      review
-      обзор
-      питание
+tags: food
 summary: В этой заметке я хотел бы поделиться своим опытом использования напитков и гелей британской марки High 5.![high5 logo](https://lh5.googleusercontent.com/-W9NGBfizrpY/Ujm2xNEOyxI/AAAAAAAAB1w/F_M2eyEbKjU/w571-h245-no/120719_High5-logo.jpg)
 
 Ниже представлен небольшой обзор спортивного питания High 5, протестированного

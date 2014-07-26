@@ -1,7 +1,7 @@
 title: Road ride in "Vallée de la Valserine"
 public: yes
-tags: road
-      training
+tags: riding
+      food
 summary: Super-epic ride with at least 2300m of elevation.
 
 * Total distance: 148 km

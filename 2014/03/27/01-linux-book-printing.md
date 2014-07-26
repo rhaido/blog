@@ -1,8 +1,5 @@
 title: Printing Books in Linux
 tags: linux
-      book
-      printing
-      pstops
 public: yes
 summary: Small note about book printing in Linux using psutils package
 

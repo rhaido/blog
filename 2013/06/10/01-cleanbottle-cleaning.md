@@ -1,6 +1,6 @@
 title: Cleaning Cleanbottle
 public: yes
-tags: cleanbottle
+tags: various equipment
 summary: Yesterday I decided to completely clean up from molding my cleanbottle bottles.
 
 Cleanbottle - is a great bottle. I use it on a daily basis for my road
@@ -10,7 +10,7 @@ as clean as possible, but, as we all know, everything is in balance in this
 world, and cleanbottle is not an exclusion from this rule. The mold collects
 itself in two places in this bottle:
 
-* Under the while sealings
+* Under the white sealings
 * Around and inside the yellow teat (nipple)
 * Inside the top lid, in the deep hole accessible from intenal site.
 

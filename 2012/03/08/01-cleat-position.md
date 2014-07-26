@@ -1,9 +1,6 @@
 title: Мощность к педали - положение шипа.
 public: yes
-tags: bikefit
-      cleat position
-      положение шипа
-      посадка
+tags: bike fit
 summary: Мой перевод статьи Стива Хогга ["Power to the Pedal - Cleat Position"](http://www.stevehoggbikefitting.com/blog/2011/04/power-to-the-pedal-cleat-position/) ![shoes](/static/img/2012/03/08/33997b.jpg)
 
 Данный скромный труд посвящён такой безусловно волнительной для всей

@@ -1,8 +1,6 @@
 title: Установка жёлтой ленты NoTubes
 public: yes
-tags: notubes
-      yellow tape
-      герметизирующая лента
+tags: wheels
 summary: Некоторые тонкости установки герметизирующей желтой ленты от NoTubes и ей подобных ![tape](http://www.notubes.com/Assets/ProductImages/AS33-Stans-Rim-Tape-10yd-25mm.jpg)
 
 Всем привет ;)

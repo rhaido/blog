@@ -1,8 +1,6 @@
 title: How to Build Your Own Ansible Empire
 public: no
 tags: ansible
-      devops
-      system management
 summary: Here I am trying to give brief summary about current BE/CO ansible structure, its advantages and disadvantages
 
 ## Code storage
