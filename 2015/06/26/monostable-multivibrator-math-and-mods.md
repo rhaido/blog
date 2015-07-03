@@ -3,22 +3,22 @@ tags: electronics
 public: no
 summary: Circuit modifications to standard monostable multivibrator: accurate wave, delay variation, reverse bias protection
 
-In this small note I am going to explain small updates, tweaks and fixes to the basic
-well-known monostable multivibrator circuit.
+In this small note I am going to explain some aspects of the standard well-known
+monostable multivibrator circuit, which, from my point of view, are not
+particularly well described.
 
 ## Modifications to the basic circuit
 While building and testing the basic circuit, the following things were spotted which are not-so-good:
 
-- Output wave was not really square on both ends.
-  The moment you add the 10uf capacitor and 1M resistor, it becomes very well rounded
-- No reverse bias protection for the transistor **Q2**.
-  Thus you can easily damage it (in theory). In practice, I have a working circuit
-  (astable multivibrator), which I tested with -9v reverse voltage, and it was
-  fine;
+- Output wave was not really square on both ends.  The moment you add the 10uf
+  capacitor and 1M potentiometer, it becomes very rounded
+- No reverse bias protection for the transistor **Q2**.  Thus you can easily
+  damage it (in theory). In practice, I have a working circuit (astable
+  multivibrator), which I tested with -9v reverse voltage, and it was fine;
 
-All of these issues are identical to the problems of astable multivibrator,
-therefore the proposed solution will be very similar. Here is my circuit
-+ explanations:
+All of these issues are identical to the problems of another classical circuit,
+astable multivibrator. Therefore the proposed solution will be very similar.
+Here is my circuit plus some explanations:
 
 - Do not make **R3** very big, 1M will already pose some problems. With big resistance, very small current
   enters the base of **Q2**, thus giving an opportunity to **Q1** to open first, as much more current can enter its base.
