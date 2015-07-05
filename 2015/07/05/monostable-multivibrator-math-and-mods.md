@@ -1,6 +1,7 @@
-title: Monostable Multivibrator Math and Mods
+title: Monostable Multivibrator, Mods and Math
 tags: electronics
-public: no
+      circuits
+public: yes
 summary: Circuit modifications to standard monostable multivibrator: accurate wave, delay variation, reverse bias protection
 
 In this small note I am going to explain some aspects of the standard well-known
@@ -23,7 +24,7 @@ Here is my circuit plus some explanations:
 
 ![monostable circuit](/static/img/2015/07/04/monostable_and_inputs.png)
 
-- Do not make _R3_ very big, 1M will already pose some problems. With big
+- General recommendation: do not make _R3_ very big, 1M will already pose some problems. With big
   resistance, very small current enters the base of _Q2_, thus giving an
   opportunity to _Q1_ to open first, as much more current can enter its base.
   In addition, any fluctuation/noise of the power rail - for example, from DC
