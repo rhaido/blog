@@ -31,8 +31,8 @@ Here is my circuit plus some explanations:
   randomly the whole circuit mechanism.  In general, there is a well-known
   principle: it is better to increase capacitance in order to increase a time
   constant, but not resistance.
-- The diode D1 provides the accurate square wave - rising edge - for the Output
-  1 (collector of **Q1**) by _isolating_ the positive lead of capacitor **C1**
+- The diode D1 provides the accurate square wave - rising edge - for the **Output
+  1** (collector of **Q1**) by _isolating_ the positive lead of capacitor **C1**
   from the collector of **Q1**. The main reason it the following:
   when charging though **R3**, all changes from right side are reproduced on the
   left side, thus giving the perfect illustration for charging of the capacitor :)
