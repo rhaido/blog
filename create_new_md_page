@@ -17,7 +17,7 @@ do
   case $option in
     'f') FNAME="$OPTARG";;
     't') TITLE="$OPTARG";;
-    'a') TAGS="$OPTARG";;
+    'a') echo $OPTARG; TAGS="$OPTARG";;
     'n') PUBLIC="n";;
     's') SUMMARY="$OPTARG";;
     'h') usage; exit 0;;
