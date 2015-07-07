@@ -120,12 +120,8 @@ using classical irons, if the following:
 
 ... and a little bit more to make sure, that the tip and heating element are
 fully "loaded". Some manufacturers honestly put "5 minute" heating time on their
-articles, but most of them do not really bother. Also, bigger/thicker/more
-massive your tip is - more time it will require to heat up.
-
-This was one of my errors in the past: I completely ignored WPI rule and was paying
-more attention to led blinking, rather then that the state of the iron itself,
-thus always underheating it
+articles, but most of them do not really bother. Also, bigger/thicker/heavier
+your tip is - more time it will require to heat up.
 
 ## Damp sponge vs brass wool sponge
 Again, look at the PACE videos - for me it is clear, that the best practice is
