@@ -7,18 +7,19 @@ summary: What should I buy: soldering station vs temperature controlled solderin
 Beginners suffer in soldering; they spend endless hours in their first attempts
 to get the job done. I decided to write this article to give a
 beginning of a "leading thread" and provide a reader a useful foundation for
-the further adventures in the world of electronics soldering.  Also, I am
+the further adventures in the world of soldering for electronics.  Also, I am
 taking courage to define some videos better then the others based on my personal experience and their relevance to the real-world application :)
 
 So, here we go!
 
-## Start with "Basic Soldering Lesson" videos from PACE
-[PACE]() is an established, famous and very reputable manufacturer of a high-end
-electronics soldering equipment. Back in the 1980 they produced a
-[beautiful series of videos](https://www.youtube.com/playlist?list=PL926EC0F1F93C1837),
-which gives you almost - if not **ALL** - necessary information you need to
-start and progress with soldering and achieving good results. It even covers -
-although briefly - SMT component soldering.
+## "Basic Soldering Lesson" Videos From PACE
+[PACE](https://www.paceworldwide.com/) is an established and reputable
+manufacturer of a high-end equipment for soldering electronics components. Back
+in the 1980 they produced a [beautiful series of
+videos](https://www.youtube.com/playlist?list=PL926EC0F1F93C1837), which gives
+you almost - if not **ALL** - necessary information you need to start and
+progress with soldering and achieve good results. It also covers - although
+briefly - SMT component soldering.
 
 It is highly recommended to watch all of them, but the first one:
 [Basic Soldering Lesson 1 - "Solder & Flux"](https://www.youtube.com/watch?v=vIT4ra6Mo0s&list=PL926EC0F1F93C1837&index=1)
@@ -28,7 +29,7 @@ tool wattage, etc.; and it is absolutely actual even today.
 
 First PACE video contains one very important message to beginners:
 
-## You do not need fancy tools to make good soldering joints
+## Good Soldering != Fancy Tools
 Good tools - yes, fancy - no. Do not listen anybody telling you otherwise.
 Soldering stations, temperature control, RF stations, etc - all of these things
 are featured and praised by the Internet, but absence of them does not
@@ -45,7 +46,7 @@ All this joints have been done with a decent and properly chosen mains soldering
 irons, without any control except WPI (OK, _Sijosae_ used dimmer to reduce wattage
 of the beast):
 
-- Hakko Dash of Sijosae:
+- Hakko Dash of [Sijosae](http://www.headphoneamp.co.kr/ftp/sijosae/Gallery/):
 
   ![Sijosae soldering iron and stand](http://www.headphoneamp.co.kr/ftp/sijosae/Gallery/Tool/IronStand.jpg)
 
@@ -53,22 +54,23 @@ of the beast):
 
   ![my soldering iron](/static/img/2015/07/06/antex_cs-18.jpg)
 
-Repeating the video, there are so many factors influencing the temperature
+Repeating what has been already state in the video, there are so many factors influencing the temperature
 control, for example: tip thermal mass, connection between tip and heating element,
 lag of temperatures between tip and temperature sensing element, wattage, recovery
 speed, thermal mass of a surface and so on - that they will simply drive you
 away from the soldering process itself, preventing you from any soldering at all.
 
-From my personal experience, when I bought my first soldering iron - of course
-to follow a fashion, it was with temperature control, - I spent much more time in
-wondering, why the iron with temperature **set** to 320 degrees and 1.6mm chisel
-tip does not really want to solder components to continuous copper strips of 2.2 mm.
+I have not escaped this trap either: after I bought my first soldering iron - of
+course to follow a fashion, it was with temperature control, - I spent a lot of
+time wondering, why the iron with temperature **set** to 320 degrees and 1.6mm
+chisel tip does not really want to solder components to continuous bare non-fluxed
+copper strips of 2.2 mm width.
 
 At a certain level, with enough practice and a certain skill, understanding and
 feeling of the whole process will come, just take you time to learn basics and
 progress.
 
-## Choose a proper mains iron with adequate wattage.
+## Mains Iron With Adequate Wattage and Stabilized Temperature
 It looks like I am advertising simple mains soldering irons, and indeed I
 am doing so :) Quality soldering iron from recognizable brand will cost you some
 money - much less, then really good soldering station - and will be in service
@@ -127,7 +129,7 @@ Antex, where it is an option and cost you some extra money; also the tips for
 30ST/40ST/65ST are the same, thus providing you additional degree of
 flexibility.
 
-## Give your iron enough time to heat up!
+## Give It Enough Time To Heat Up!
 ... and a little bit more to make sure, that its tip and heating element are
 fully "loaded". This is a principle, frequently omitted by beginners - I was
 not an exclusion - while using classical irons, especially if there is more
@@ -141,7 +143,7 @@ I usually turn the iron on, put on work clothes, go for water to wet sponge, do
 some other small preparations - the moment the iron is put to work, it is
 already hot and ready to work!
 
-## Power on and power off you iron only one time
+## Power-On/Power-Off
 Once I have read an instruction for the university electronics laboratory,
 where among other this was this statement: "Tools like CRT oscilloscope
 and soldering irons are not really intended to be switched on/off constantly:
@@ -154,18 +156,25 @@ residues, nothing will happen to it. During 5-6 hour soldering session - not
 frequent, but still - my Antex CS-18 is constantly "on" - nothing has happened
 to it yet, and I am still using the same tip!
 
-## Tip care holy war: damp sponge vs brass wool ball
+## Damp Sponge vs Brass Wool
 Again, look at the PACE videos - for me it is clear, that the best practice is
 to use **both**. Follow the sequence "brass wool - damp sponge - soldering",
 and you will always be fine. If only one thing is possible
 for you, take into account:
 - damp sponge is a better against chemical residues and smaller
   contamination, which is left after desoldering
-- brass wool is better against stronger contamination, like accidentally melted
-  plastic, also cleaning the whole tip body is possible
+- brass wool is better against stronger and larger contamination, like
+  accidentally melted plastic, also cleaning the whole tip body is possible
 
 Also, after tip tinning and wiping it with damp sponge, it looks a little bit
 brighter, then after a brass wool ball :)
+
+One precaution about damp sponges, which look like quite reasonable
+([source](http://forums.adafruit.com/viewtopic.php?f=44&t=13784&start=15)):
+
+> Don't use cold water, or let the sponge get too wet. Doing so can cause the
+> temperature to drop more than necessary, and can even cause thermal shock that
+> damages the tip.
 
 **WARNING:** do not use non-cellulose sponges from kitchen shop. Sponge you really
 want should be made out of 100% cell, and be hard in a dry state; otherwise you
@@ -188,7 +197,8 @@ answer is the same: **leaded solder**.  Lead-free fluxes are more toxic, and it
 is **FLUX** - not a solder compound itself - which is posing the main danger to
 you while soldering. Also, for medical, military and aeronautic purposes, where
 the quality of soldering connections is critical, the leaded solder is
-obligatory.  Read more about cat whiskers.  Also, lead-free solder has higher
+obligatory. [Read more about
+whiskers](https://en.wikipedia.org/wiki/Whisker_%28metallurgy%29).  Also, lead-free solder has higher
 melting point (also it is a reason why different fluxes are used) and overall
 melting process is much "slower", requiring longer heat application, thus
 increasing a risk to damage a component.
