@@ -4,11 +4,12 @@ tags: electronics
 public: no
 summary: What should I buy: soldering station vs temperature controlled soldering iron? What solder to use? Brass wool vs damp sponge? In this article I tried briefly explain the main difference and give a basic guiding idea, which should help beginner during his first steps in soldering.
 
-Beginners suffer in soldering; they spend endless hours in their first attempts
-to get the job done. I decided to write this article to give a
-beginning of a "leading thread" and provide a reader a useful foundation for
+Beginners suffer in the world of soldering; they spend endless hours during their
+first attempts to get the job done. I decided to write this article in order to give only a
+beginning of a "leading thread" and provide a reader with a useful foundation for
 the further adventures in the world of soldering for electronics.  Also, I am
-taking courage to define some videos better then the others based on my personal experience and their relevance to the real-world application :)
+taking courage to define some videos better then the others based on my
+personal experience and their relevance to the real-world application :)
 
 So, here we go!
 
@@ -26,6 +27,16 @@ It is highly recommended to watch all of them, but the first one:
 - is absolutely necessary for starters.  This video explains you all the magic
 and physics behind the soldering process, heat transfer, thermal capacity,
 tool wattage, etc.; and it is absolutely actual even today.
+
+Also, there is a nice series of video about desoldering, also from PACE. I've
+learnt some tricks and techniques from there too.
+
+Here are the videos, from my point of view, worth watchin, including one
+with really professional soldering:
+
+-
+-
+- Curious inventor
 
 First PACE video contains one very important message to beginners:
 
@@ -54,33 +65,34 @@ of the beast):
 
   ![my soldering iron](/static/img/2015/07/06/antex_cs-18.jpg)
 
-Repeating what has been already state in the video, there are so many factors influencing the temperature
-control, for example: tip thermal mass, connection between tip and heating element,
-lag of temperatures between tip and temperature sensing element, wattage, recovery
-speed, thermal mass of a surface and so on - that they will simply drive you
-away from the soldering process itself, preventing you from any soldering at all.
+I can only repeat what has been already stated in the video: there are so many
+factors influencing the temperature control, like tip thermal mass, connection
+between tip and heating element, lag of temperatures between tip and
+temperature sensing element, wattage, recovery speed, thermal mass of a surface
+and so on - that at the end what you really want is the tip being hot enough
+and having reasonable storage of energy (wattage).
 
-I have not escaped this trap either: after I bought my first soldering iron - of
-course to follow a fashion, it was with temperature control, - I spent a lot of
-time wondering, why the iron with temperature **set** to 320 degrees and 1.6mm
-chisel tip does not really want to solder components to continuous bare non-fluxed
-copper strips of 2.2 mm width.
+Sometimes, you can be mislead by temperature control indications, like blinking
+LEDs, and I have not escaped this trap either: after I bought my first
+soldering iron - of course with temperature control, in order to follow a
+fashion, - I spent a lot of time wondering, why the iron with temperature **set** to 320
+degrees and 1.6mm chisel tip does not really want to solder components to
+continuous bare non-fluxed copper strips of 2.2 mm width.
 
-At a certain level, with enough practice and a certain skill, understanding and
-feeling of the whole process will come, just take you time to learn basics and
-progress.
+At a certain level, with enough practice and certain skill, comes understanding and
+feeling of the whole process - just take your time to learn basics and progress.
 
 ## Mains Iron With Adequate Wattage and Stabilized Temperature
 It looks like I am advertising simple mains soldering irons, and indeed I
 am doing so :) Quality soldering iron from recognizable brand will cost you some
-money - much less, then really good soldering station - and will be in service
-for years - for example, some of the Antex irons are well known to serve for 20+
-years.
+money - although much less, then really good soldering station - and will be in service
+for years. For example, some of the Antex irons are well known to work for 20+
+years with tip replacement.
 
-My personal rule of a thumb for electronics states the following: try to stick
-with 15-20 watt irons with properly heated tip temperature below 400 degrees,
-somewhere in 350-390 range. In **Europe**, the most appropriate irons from
-famous brands, satisfying these criteria, are:
+My personal rule of a thumb for soldering irons for electronics states the
+following: try to stick with 15-20 watt irons with highest tip temperature
+below 400 degrees, somewhere in 350-390 range. In **Europe** you can find
+following irons satisfying these criteria:
 
 - Antex: CS 18 watt (390 degrees) is a living classics of soldering irons
   I personally own one with silicon power cable, and it is very light - on the
@@ -88,15 +100,14 @@ famous brands, satisfying these criteria, are:
 - JBC: 14 ST (11w) and 30 ST/40ST (25w/26w, **BUT** 380 degrees)
 - ERSA: MultiTip C15, Tip 260
 
-To have a complete list of irons, here I am also providing slightly more
-powerful models from the same manufacturers, with temperatures above 400 degrees in case 
-you need to solder more massive joints:
+There are more powerful models from the same manufacturers, with temperatures
+above 400 degrees in case you need to solder more massive/bigger joints:
 
-- Antex XS 25
-- ERSA MultiTip C25, MultiPro
+- Antex XS 25 watt
+- ERSA MultiTip C25, MultiPro (20w)
 - JBC 65ST (65w!)
 
-I own Antex XS 25, and I find it too hot for normal electronics usage,
+I own Antex XS 25 and find it too hot for normal electronics usage,
 especially when soldering dense circuits (which are the majority of circuits I
 produce); nevertheless, it comes handy when I need to re-solder/desolder
 bigger things.
@@ -114,20 +125,19 @@ units will have:
   have been polished for years, thus providing certain quite stable combination
 - reasonable recovery time (how long does it take to heat back
   after a contact with colder surfaces).
-- good choice of tips (Antex is although lacking variety a bit, does not have
+- good choice of tips (although Antex choice is a bit limited lacking
   chisel/screwdriver tip for C and CS range)
-- replacement part are available and will not disappear suddenly; it is often
-  possible to rebuild faulty unit even 10 years after initial purchase.
+- replacement parts like heating element and tips are readily available and
+  will not disappear suddenly; it is often possible to rebuild faulty unit even
+  10 years after initial purchase.
 
 Personally, I like Antex irons for their heating element quality, ergonomics
 (only models I mentioned earlier, as I tried them both), and hook - special
 feature, which can be used for your index finger to improve control over
 soldering process. From the other side, if I would buy soldering iron right now,
-I will probably opt for JBC, because they are cheaper, have somewhat better tip
+I will probably opt for JBC, because JBC irons are cheaper, have wider tip
 choice and already include flexible silicone heat-resistant cable contrary to
-Antex, where it is an option and cost you some extra money; also the tips for
-30ST/40ST/65ST are the same, thus providing you additional degree of
-flexibility.
+Antex, where it is an additional option and cost you some extra.
 
 ## Give It Enough Time To Heat Up!
 ... and a little bit more to make sure, that its tip and heating element are
@@ -140,33 +150,34 @@ bigger/thicker/heavier your tip is, more time is required to heat up the whole
 system properly.
 
 I usually turn the iron on, put on work clothes, go for water to wet sponge, do
-some other small preparations - the moment the iron is put to work, it is
-already hot and ready to work!
+some other small preparations - and voila, it is
+already hot and ready to to solder!
 
 ## Power-On/Power-Off
-Once I have read an instruction for the university electronics laboratory,
-where among other this was this statement: "Tools like CRT oscilloscope
+Once I have encountered an instruction for some university electronics laboratory,
+where I have found the following rule: "Tools like CRT oscilloscope
 and soldering irons are not really intended to be switched on/off constantly:
 when you come in, you turn them on, when you end your session, you turn them
 off". Really, constant power recycling does not make any good to to your
 soldering iron due to constant heating/cooling (expansion/shrinking) process.
 
 Do not worry about tip - if you keep it tinned and clean of flux/chemical
-residues, nothing will happen to it. During 5-6 hour soldering session - not
-frequent, but still - my Antex CS-18 is constantly "on" - nothing has happened
+residues, nothing will happen to it. During my 5-6 hour soldering session - not
+frequent, but still - my Antex CS-18 is constantly "on" and nothing has happened
 to it yet, and I am still using the same tip!
 
 ## Damp Sponge vs Brass Wool
 Again, look at the PACE videos - for me it is clear, that the best practice is
 to use **both**. Follow the sequence "brass wool - damp sponge - soldering",
-and you will always be fine. If only one thing is possible
-for you, take into account:
+and you will always be fine. If you want to use either of this things, 
+take into account:
+
 - damp sponge is a better against chemical residues and smaller
   contamination, which is left after desoldering
 - brass wool is better against stronger and larger contamination, like
   accidentally melted plastic, also cleaning the whole tip body is possible
 
-Also, after tip tinning and wiping it with damp sponge, it looks a little bit
+From my experience, after tip tinning and wiping it with damp sponge, it looks little bit
 brighter, then after a brass wool ball :)
 
 One precaution about damp sponges, which look like quite reasonable
@@ -180,7 +191,7 @@ One precaution about damp sponges, which look like quite reasonable
 want should be made out of 100% cell, and be hard in a dry state; otherwise you
 are risking to kill the tip of your soldering iron!
 
-## Soldering iron stand: diagonal vs horizontal position.
+## Stand Up or Lay Down? Stand as a Radiator?
 It looks like as there is a small fight about this subject as well: should the iron
 be placed horizontally, or with the tip slightly above the handle, or should it
 be a diagonal placement, like in a normal stand. Personally I think, that if it
@@ -189,7 +200,10 @@ ST4, - and I am almost happy with it, although some modifications were required.
 At the end, comfort of use is a deciding factor :)
 
 One thing I really try to evade is a soldering iron handle getting hot from
-stand - that is why I usually leave my iron sligtly "pulled-off" the stand. 
+stand - that is why I usually leave my iron sligtly "pulled-off" the stand.
+
+Another question, should the tip of uncontrolled soldering iron really touch
+some metallic part or not
 
 ## Solder: leaded vs lead-free
 Funny enough, for amateurs and for high reliability soldering _today_ the
@@ -230,22 +244,29 @@ of such soldering is done to already pre-tinned surfaces, thus making the whole
 story shorter. Sometimes there is plenty of flux already in the solder wire.
 But overall, in order to remove oxides from copper, which are formed almost
 immediate after you cleaned it with alcohol, you have to use flux. Videos from
-pace contain good explanations about why is it necessary, and still it is
+PACE contain good explanations about why is it necessary, and still it is
 frequently forgotten.
 
 For the beginning, stick to the traditional rosin flux. You can even make one
-from alcohol and pine rosin, if you want to save some money. But still, use
-flux - it will greatly simplify soldering and improve the final result. After
-soldering, rosin flux residues can be removed with isopropyl alcohol.
+yourself from alcohol and pine rosin, if you want to save some money. But
+still, use flux - it will greatly simplify soldering and improve the final
+result. After soldering, rosin flux residues can be removed with isopropyl
+alcohol.
 
-## Instead of the conclusion
+Even if you think, that your solder wire has enough flux, it might be
+beneficial to use additional to simplify the whole process and ensure the
+solder joint integrity.
 
+## Instead of a conclusion
+
+- Watch videos from PACE
 - Get a decent soldering iron
 - Get stand, special sponge and brass wool ball
-- Get good flux and fine solder
+- Get/make good flux and fine solder
+- Get solder sucker and solder wick to fix a mess
 - Try to solder some projects, like CMOY amplifiers, or something from Talking
   Electronics, and hone your skills from project to project
-- Feel satisfaction from the process of creation.
+- Be persistent and feel satisfaction from the process of creation.
 
 Have fun!
 
