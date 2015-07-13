@@ -5,8 +5,7 @@ tags: electronics
 public: no
 summary: A mod for Weller <model here> PCB holder to improve clamping of the smaller boards. Make sure to read the UPDATES section.
 
-
-## Prooblem
+## Problem
 Weller is a good circuit board holder, probably the best design you can buy for
 reasonable money. Still, it has certain number of drawbacks, and one of them is
 very uncomfortable and flimsy holding of the small (9x9 dots and less)
@@ -46,7 +45,7 @@ mounted on should be taken into account.
 ## UPDATES
 
 - It was discovered, that it's impossible to use component holder for the
-  boards smalller then the sponge, as i simply won't get through the opening of
+  boards smaller then the sponge, as i simply won't get through the opening of
   the "added" jaws. The following design of the "board" part was proposed to fix
   an issue:
   
