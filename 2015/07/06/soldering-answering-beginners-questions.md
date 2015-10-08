@@ -112,8 +112,8 @@ produce); nevertheless, it comes handy when I need to re-solder/desolder
 bigger things.
 
 _I omitted Weller (was Germany, now USA) products as they are/were well-known
-for there soldering stations, not for their mains-powered irons, from my
-perspective; also, they are utterly expensive, a factor definitively not
+for their soldering stations, not for their mains-powered irons (from my
+perspective); also, they are way too expensive - a factor definitively not
 contributing to their popularity._
 
 It can be said with certain amount of confidence, that any of the aforementioned
