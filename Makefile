@@ -14,3 +14,6 @@ rebuild:
 
 serve:
 	$(run_blog) serve
+
+upload:
+	rsync -e ssh -avz _build/ mike@blog.grozak.com:/apps/grozak.com/blog/_build/
