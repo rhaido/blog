@@ -1,6 +1,7 @@
 active_modules: [tags, blog, latex, disqus]
 author: Mike Grozak
 canonical_url: http://blog.grozak.com/
+feed.subtitle: What's new we've got recently
 modules:
   disqus:
     shortname: mgrozak
