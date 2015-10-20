@@ -3,9 +3,7 @@ tags: Elektor
 public: no
 summary: Index of old elektor issues is building here...
 
-## 1974 
-
-### 12 (UK)
+## 1974 - 12 (UK)
 
 - from din to equa standards - 3
 - tup - tun - dug - dus
@@ -26,9 +24,7 @@ summary: Index of old elektor issues is building here...
 - steam train
 - steam whistle
 
-## 1975
-
-### 02
+## 1975 - 02
 
 - minidrum
 - sonat
@@ -50,7 +46,7 @@ summary: Index of old elektor issues is building here...
 - improve 7 segment display
 - psychedelic lights
 
-### 04
+## 1975 - 04
 
 - tap preamp (part 1)
 - pll systems
@@ -69,7 +65,7 @@ summary: Index of old elektor issues is building here...
 - tup-tun-dug-dus
 - led-level
 
-### 06
+## 1975 - 06
 
 - tup-tun tester
 - tup-tun-dug-dus
@@ -89,7 +85,123 @@ summary: Index of old elektor issues is building here...
 - missing link
 - sniff race control - E. Waschkowski
 
-### 09
+## 1975 - 07+08 summer
+
+### AF
+- amplifier for 1.5v supply
+- amplifier, 6.5 watt IC
+- austereo control amplifier
+- austereo disc amplifier
+- austereo power supply
+- austereo 3 watt amplifier
+- austereo 15-30 watt amplifier
+- diode, ideal
+- filter, active low-pass
+- frequency dependent resistor
+- generator, diac sawtooth
+- generator, staircase
+- inductance, variable
+- mixer, FET
+- oscillator, 1 kHz
+- overmodulation indicator
+- signal squirt, mini
+- siren, 7400
+- tremolo, LED controlled
+- volume control, fingertip
+- volume, voltage controlled
+
+### Digital
+- arithmetic teacher
+- capacitance meter
+- clock supression
+- decimal to 7-segment converter
+- display input selector
+- divider, programmable frequency
+- division by 2, 5, 10
+- division by 3
+- division by 4
+- division by 6
+- division by 7
+- division by 8
+- division by 9
+- EXOR
+- EXOR
+- four-channel switch
+- frequency reference, universal
+- interference rejector
+- NAND-NOR gate
+- NAND-OR gate
+- NOR-AND gate
+- pulse multiplier
+- reset for TTL, automatic
+- seven segment abc
+- seven segment for MOS-clocks, improved
+- time signal simulator
+- the 74121
+- use of 7493 instead of 7490
+
+### HF
+- FM detector with ceramic filter
+- mono/stereo indicator
+- receiver, sensitive col-less
+- selective amplifier
+- stereo decoder, CA 3090 AQ
+- traffic news indicator
+- tv-sound channel, IC
+- ultrasonic detector
+
+### Power supplies
+- austereo power supply
+- battery stand-by circuit
+- heatsink shrinker
+- rhytm generator power supply
+- slow-rise power supply
+- voltage regulator, wide range
+- voltage stabilizer as current source
+- +/0/- from one winding
+
+### Sundries
+- afterburner
+- alarm circuit
+- calculator doubles as stopwatch
+- capacitance meter
+- car lights failure detector
+- conductance tester, mini siren
+- contrast adapter
+- cuff links
+- curve tracer
+- dark room exposure timer
+- direction pointer
+- economic flashlight
+- economic relay
+- FET Ohm-adapter
+- 'find me' flashlight attachment
+- flasher, LED
+- flasher, LED, for higher voltages
+- flasher, triac
+- fluorescent lamp dimmer
+- frequency meter, analogue
+- fuse destroyer
+- hum receiver
+- key contacts for organs, gated
+- LED display dimmer
+- mostronome
+- opto-coupler for mains sync
+- oven, mini
+- rhythm generator M 252
+- rhythm generator M 253
+- rhythm generator power supplies
+- running light
+- service meteo, auto
+- speed controller, triac
+- temperature monitor
+- tester
+- tester, p.c.board and wiring
+- thermometer
+- timer, kitchen
+- trigger, 555 as a
+
+## 1975 - 09
 
 - edwin amplifier
 - miniature amplifier
@@ -108,7 +220,7 @@ summary: Index of old elektor issues is building here...
 - car clock
 - the missing link
 
-### 11
+## 1975 - 11
 
 - tv tennis
 - frequency counter
@@ -122,7 +234,7 @@ summary: Index of old elektor issues is building here...
 - tv test pattern generator
 - with a pencil point - W. Schmidt
 
-### 12
+## 1975 - 12
 
 - calendar - W.G. Paans
 - photofinish
