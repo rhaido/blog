@@ -1,5 +1,6 @@
 title: Index of Old Elektor Issues
 tags: Elektor
+      electronics
 public: no
 summary: Index of old elektor issues is building here...
 
