@@ -258,3 +258,70 @@ summary: Index of old elektor issues is building here...
 - digital ic's
 - tup-tun-dug-dus
 
+## 1976 - 01
+
+- feedback pll for fm
+- to drive or not to drive
+- optical-lock
+- sixpense detector
+- function generator ic 2206
+- racing car control
+- mini-mw
+- battleships
+- led fm scale
+- alarm
+- capacity relay
+- ping the tail on the donkey
+- simple mw receiver
+- stereo led level meter
+- digital master oscillator
+- missing link
+- high security bulgar alarm sensor
+- pll-ic stereo decoder
+- elektor shorthand
+- tup-tun-dig-dus
+- linear ics
+
+## 1976 - 02
+
+- selektor
+- automatic call-sign generator
+- morse decoder
+- speech processor
+- morse typewriter
+- digital wrist watch
+- driving lessons
+- digital master oscillator
+- simple fm test generator
+
+## 1976 - 03
+
+- super-plam
+- tv tennis extension (1)
+- ssb receiver
+- triac relay
+- tv sound - in brief
+- tv sound front-end adapter
+- power supply for varicap tuner
+- dynamic noise limiter
+- tup-tun-dug-dus
+- integrated voltage regulators (1)
+- ttl ics
+- the missing link
+
+## 1976 - 04
+
+- selektor
+- microprocessor
+- preco (1) - preamp and control amp
+- ic rhythm generator
+- polaroid timer
+- integrated voltage regulators (2)
+- led meters
+- stylus balance
+- equin (1)
+- tv tennis extension (2)
+- missing link
+- what's watt?
+- tup-tun-dug-dus
+
