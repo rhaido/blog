@@ -13,6 +13,7 @@ starting point for amateurs.
 So, here we go!
 
 ## "Basic Soldering Lesson" Videos From PACE
+
 [PACE](https://www.paceworldwide.com/) is an established and reputable
 manufacturer of a high-end equipment for soldering. Back
 in the 1980 they produced a [beautiful series of
@@ -112,18 +113,30 @@ criteria:
   the weight of my unit is 33 grams without cable on home scales!
 - **JBC 14 ST** (11w, but really good _small_ iron) and **30 ST** (25w, **BUT**
   380 degrees)
-- **ERSA MultiTip C15**, **Tip 260**.  Tips from ERSA are renowned for their
-  longevity and quality
+- **ERSA MultiTip C15**/**Tip 260**.  Tips from ERSA are renowned for their
+  longevity and quality.
 
-In case you need to solder bigger massive stuff, there are more powerful models
+    **UPDATE:** I personally own Ersa Tip 260 and the only real
+    drawback is the heavy and rigid cable. Only 3 tips are available for this
+    model: bevel, chisel/screwdriver and point - which are perfectly fine for a
+    generic use.
+
+In case you need to solder bigger and more massive stuff, there are more powerful models
 from the same manufacturers, with temperature of the tip above 400 degrees:
 
 - **Antex XS 25 watt**
 - **ERSA MultiTip C25**, **MultiPro** (20w/25w)
 
-I own **Antex XS 25** and find it too hot for normal electronics usage,
-especially when soldering dense circuits (which are the majority of circuits I
-produce); nevertheless, it comes handy when I need to re-solder/desolder
+<s>I own **Antex XS 25** and find it too hot for normal electronics usage.</s>
+
+**UPDATE**: _I actually managed to use it with a great success for soldering
+stripboards, where the Antex CS-18 tip was not able to quickly heat the
+"strips" of copper - need to check it, as tip showed some wear. Still,
+massive 2.3 mm screwdriver tip of XS 25 managed to do the work just perfectly -
+[including the SMD work](http://blog.grozak.com/2016/02/17/01-fast-prototyping-stripboard-tht-smd/)!
+Some practice is still necessary though to handle this hot beasty._
+
+It comes handy when I need to re-solder/desolder
 bigger things, metallic parts and so on.
 
 _I omitted Weller (once in a while was German, now Cooper Tools USA) products
@@ -132,30 +145,31 @@ mains-powered irons (from my perspective); also, they are way too expensive - a
 factor definitively not contributing to their popularity._
 
 One practical advantage of the fixed temperature mains soldering iron -
-personally for me - lies in the desoldering field. Desoldering wick/braid is a
+personally for me - lays in the desoldering field. Desoldering wick/braid is a
 "heat thieve" and if the iron temperature is not high enough, you won't get the
 job done. The setting on my regulated iron was around 320 degrees - no idea how
-much was in the reality, I just trust Goot and Antex - and I had to set it
+much was in the reality, I just trusted Goot and Antex - and I had to set it
 above 360 each time I wanted to desolder something from a stripboard using
 braid (thus plus two "heat thieves") fast enough. With the simple **Antex
 CS-18** this hassle has been just forgotten.
 
-It can be said with certain amount of confidence, that any of the aforementioned
+It can be said with a certain amount of confidence, that any of the aforementioned
 units will have:
 
-- good heating element - it is obvious :)
+- good heating element - otherwise they won't be in this list
 - good ergonomics
 
     From my point of view, it is almost the most important parameter of
-    the iron, as there are plenty of offers with the same performance, but very
-    view of them has really good ergonomics and weight. This is, however, highly
-    personal, but the design of the proposed units has been polished for
+    the iron, as there are plenty of offers with same performance, but very
+    few of them has really good ergonomics and weight. This is, however, highly
+    personal, but design of the proposed units has been polished for
     years and is quite often praised by the users across the world.
 
 - reasonable recovery time (how long does it take to heat the tip back after a
-  contact with colder surface).
-- good choice of tips (Antex choice is a bit limited lacking chisel/screwdriver
-  tip for C and CS range)
+  contact with colder surface);
+- good choice of tips (Antex choice is a bit limited for CS and C-range, lacking chisel/screwdriver
+  tips; XS-range is good; ERSA Tip 260/C-series is limited to only 3
+  bits, but they are rather universal: 2.6 screwdriver, point- and bevel-types);
 - replacement parts like heating element and tips are readily available and
   will not disappear suddenly; it is often possible to rebuild faulty unit even
   10 years after initial purchase.
@@ -172,7 +186,7 @@ good foundation for the quality soldering work.
 
 ![heat](/static/img/2015/10/heat.jpg)
 
-... properly and a little bit more to make sure, that the tip and the heating
+... properly and a little bit more to make sure, that a tip and a heating
 element are fully "loaded". This detail is frequently omitted by beginners - I
 was not an exclusion - while using classical irons, even regulated ones. While some
 manufacturers honestly specify "5 minutes" of heating time, others do not
@@ -180,14 +194,15 @@ really care too much. Physical dimensions of the tip directly contribute to
 the heating time: bigger/thicker/heavier your tip is, more time is required to
 heat up the whole system properly.
 
-I usually turn the iron on, put on work clothes, go to get some water to wet
-sponge, do some other small preparations - and voila, iron is hot and
+I usually turn the iron on, prepare everything, go to get some water to wet a
+sponge, do some other small stuff - and voila, iron is hot and
 ready for soldering!
 
 So, again, be patient and _give it enough time to heat up_ - that's the key to
 success!
 
 ## Power Recycling
+
 Once I have encountered an instruction for some university electronics laboratory,
 which stated the following: "Tools like oscilloscope and soldering irons are
 not really intended to be switched on/off constantly: when you come in, you
@@ -201,6 +216,7 @@ not too frequently, but still - my Antex CS-18 is constantly "on" and nothing
 has happened to it yet, and I am still using the same tip!
 
 ## Damp Sponge vs Brass Wool
+
 Again, look at the PACE videos - for me it is clear, that the best practice is
 to use **both**. Follow the sequence "brass wool - damp sponge - soldering",
 and you will always be fine. If you want to use either of this things, 
@@ -224,6 +240,11 @@ One precaution about damp sponges, which sounds rather reasonable
 **WARNING:** do not use non-cellulose sponges from kitchen shop. Sponge you
 really want should be made out of 100% cell, and it should be hard and dense in
 a dry state; otherwise you are risking to kill the tip of your soldering iron!
+
+**UPDATE**: currently I am trying to use exclusively brass wool with the Antex
+irons, and already one tip is damaged. Maybe I'm using it wrong, or brass wool
+ball is of a bad quality - let see. For the moment, I'm not really pleased with
+the results of my tests.
 
 ## Leaded vs Lead-free Solder
 Funny enough, the answer for amateurs and for high reliability the answer is
