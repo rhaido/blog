@@ -1,33 +1,38 @@
 title: Stripboard + Thru-Hole + SMD = Fast Prototyping
 tags: electronics
+      soldering
 public: yes
-summary: ![proto-1-side](/static/img/2016/02/proto-1-side-web-front.jpg) Fast prototyping with stripboard and mixture of thru-hole and SMD components
+summary: ![proto-1-side](/static/img/2016/02/proto-1-side-web.jpg) Fast prototyping with stripboard and mixture of thru-hole and SMD components
 
 I've always liked prototyping with a solderless breadboard, as it is fast to
-build, easy to modify and poke around with probes. All was fine, until I tried
+build, easy to modify and poke around with probes - until I tried
 to build a prototype of a very simple project (on a breadboard), but it refused
-to work correctly. I soldered it - and it bloody well worked! After some
-investigation it turned out, that the contacts:
+to function correctly. I soldered it - and it bloody well worked! After some
+investigation it turned out, that:
 
-- are not tight at all
+- contacts of a solderless breadboard are not tight
 
-- sometimes have resistance (probably as it's not a firm connection), and in
-  total this resistance are **not negligible at all**
+- as an interface between component lead and a board clip is not tight, 
+  there is some electrical resistance between them, and - to my experience -
+  this resistance is **not negligible at all**. Once I was able to measure the
+  voltage drop with my multimeter just across the jumper connected to a solderless
+  breadboard!
 
-To mitigate the issue, I've come up with an old idea of placing components
-(with long leads) on the _copper side_ of a stripboard, - a method, which has,
-to my mind, the following advantages:
+To mitigate the issue, I've come up with an old idea of placing components on
+the _copper side_ of a stripboard. This approach resembles - a bit - a Manhattan building
+technique and to my mind, has the following advantages:
 
-- **no need to flip the board** - that's a big deal for me, as I prefer to see
-  components while measuring
+- **no need to flip the board** while soldering and measuring - less adventures
+  with holding components in place and in addition, you see the components
+  while measuring
 
-- least possible manual work, as there are already copper strips, which are
+- less manual work, as there are already copper strips, which are
   partially interconnecting components - you still need to make jumper wires
   and you still need to occasionally remove copper using 3mm drill bit
 
-- using copper strips as a measuring points
+- using copper strips as access points for measurements
 
-- SMD 1205 components can be used - thus simplyfying the job even further;
+- SMD 1205 components can be used, thus simplyfying the job even further;
   still, thru-hole componenst are the foundation of the method.
 
 All other prototyping techniques, like Dead-Bug/Point-to-Point/Manhattan/Bird's
@@ -50,6 +55,8 @@ reader.
 ![proto-1-ov](/static/img/2016/02/proto-1-ov-web.jpg)
 
 ![proto-2-ov](/static/img/2016/02/proto-2-ov-web.jpg)
+
+![proto-3-ov](/static/img/2016/02/proto-3-smd.jpg)
 
 ## Layout and preparations
 
