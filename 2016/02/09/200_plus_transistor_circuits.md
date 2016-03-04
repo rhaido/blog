@@ -42,10 +42,10 @@ So, here is the the quick sum of the project:
 here](https://github.com/rhaido/200_transistor_circuits_united)
 - Several builds of documents can be found there:
 
-    1. **200_transistor_circuits.pdf** - with all photos
-    1. **200_transistor_circuits-light.pdf** - without photos, ~13 pages shorter, more
+    1. **[200_transistor_circuits.pdf](https://github.com/rhaido/200_transistor_circuits_united/blob/master/200_transistor_circuits.pdf)** - with all photos
+    1. **[200_transistor_circuits-light.pdf](https://github.com/rhaido/200_transistor_circuits_united/blob/master/200_transistor_circuits-light.pdf)** - without photos, ~13 pages shorter, more
         optimized for ebook readers.
-    1. **200_transistor_circuits.epub** - EPUB build of the lightweight document.
+    1. **[200_transistor_circuits.epub](https://github.com/rhaido/200_transistor_circuits_united/blob/master/200_transistor_circuits.epub)** - EPUB build of the lightweight document.
 
 - With all questions about the circuits and for buying kits - write directly to
   Colin
