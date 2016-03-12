@@ -1,0 +1,33 @@
+title: 2 Latching Push-ON-Push-OFF Circuits
+tags: electronics
+public: yes
+summary: 2 simple one-button latching circuits to turn on and off your project
+
+Not so much time ago I built a fan driver from my fume extraction circuit, and
+it became clear that the sort of ON/OFF push button circuit is required. My basic
+research returned two principle results:
+
+0. This circuit from EDN, copied by Talking Elektronics (Colin Mitchell) (or
+   vice versa, can not really verify) 
+0. Another original circuit from END.
+
+Each of these circuits has its problems:
+
+- the first circuit simply doesn't work in a provided configuration
+- the second one uses more expensive MOSFET transistors, which often do not
+  work with 5v - or less - power supplies.
+
+So, after some experimentation, trials and errors the following circuits were
+produced soldered and tested:
+
+![latch-01-npn-driver](/static/img/2016/03/latch-01-npn.png)
+
+![latch-01-pnp-driver](/static/img/2016/03/latch-01-pnp.png)
+
+![latch-02-npn-driver](/static/img/2016/03/latch-02-npn.png)
+
+![latch-02-pnp-driver](/static/img/2016/03/latch-02-pnp.png)
+
+## Principle of Operation
+
+In each of this circuits you have a capacitor and a target transistor. Usually target transistor start's in the OFF state, and capacitor charge has a polarity to open it. After opening a transistor (putting it in a conducting state) cap is charged with the opposite rail, thus being able to close a target transistor. 
