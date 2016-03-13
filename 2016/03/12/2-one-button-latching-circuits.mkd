@@ -1,7 +1,7 @@
-title: 2 Latching Push-ON-Push-OFF Circuits
+title: 4 Latching Momentary Power Switch Circuits
 tags: electronics
 public: yes
-summary: ![soldered latching boards](static/img/2016/03/latch-boards-thumb.jpg) 2 simple one-button latching circuits to turn on and off your project
+summary: ![soldered latching boards](static/img/2016/03/latch-boards-thumb.jpg) 2 simple one-button latching circuits to turn on and off your project + 2 complemetary circuits - soldered and tested!
 
 Not so much time ago I built a fan driver from my fume extraction (powered from
 4 x AA-battery accumulators), and it became clear that the sort of ON/OFF push
