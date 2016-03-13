@@ -1,4 +1,4 @@
-title: Stripboard + Thru-Hole + SMD = Fast Prototyping
+title: Manhattan on the Strips
 tags: electronics
       soldering
 public: yes
@@ -19,8 +19,8 @@ investigation it turned out, that:
   breadboard!
 
 To mitigate the issue, I've come up with an old idea of placing components on
-the _copper side_ of a stripboard. This approach resembles - a bit - a Manhattan building
-technique and to my mind, has the following advantages:
+the _copper side_ of a stripboard - like in the very inspiring Manhattan building
+technique - and to my mind, the proposed method has the following advantages:
 
 - **no need to flip the board** while soldering and measuring - less adventures
   with holding components in place and in addition, you see the components
@@ -36,10 +36,10 @@ technique and to my mind, has the following advantages:
   still, thru-hole componenst are the foundation of the method.
 
 All other prototyping techniques, like Dead-Bug/Point-to-Point/Manhattan/Bird's
-Nest etc. - are very good and sometimes they are the only choice for RF, but
-they are also relatively slow to build and an absolute overkill for a simple
-circuits, which you would want to assemble as quickly as possible without
-compromising the reliability.
+Nest etc. - are very good and sometimes they are the only choice for amature
+RF, but they are also relatively slow to build and an absolute overkill for a
+simple circuits, which you would want to assemble as quickly as possible
+without compromising the reliability.
 
 Frequency-wise, this method has the same limitations as normal stripboard
 method.
