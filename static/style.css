@@ -1,6 +1,6 @@
 /* SCSS!!!! */
 
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,p,blockquote,th,td {margin:0;padding:0;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,p,blockquote,th,td {margin:0;padding:0;}
 h2,h3,h4,h5,h6 {font-size:100%;}
 table { border-collapse:collapse;border-spacing:0; }
 fieldset,img { border:0; }
@@ -21,7 +21,7 @@ a:visited { color: #EBA34A; }
 a:hover { border-bottom: 1px dotted; }
 a:active { color:#940000; }
 
-code { margin: 1em 3em;	color: #999; border-left: 2px solid #999; padding-left: 1em; }
+/* code { margin: 1em 3em;	color: #999; border-left: 2px solid #999; padding-left: 1em; } */
 blockquote { margin: 1em 3em;	color: #999; border-left: 2px solid #999; padding-left: 1em; }
 
 #logo { right: 0; width: 100px; height: 100px; background: url("/static/gif/raido.gif") no-repeat; float: right; text-indent: -9999999px; padding-left: 40px; }

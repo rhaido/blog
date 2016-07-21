@@ -22,16 +22,16 @@ code:
 
 ```
 :::bash
-#!/bin/bash
-x=""
-rpms_for_install="p1 p2 p3 p4 ..."
+  #!/bin/bash
+  x=""
+  rpms_for_install="p1 p2 p3 p4 ..."
 
-for i in $rpms_for_install
-do
-  ! rpmquery --quiet $i && x="$x $i"
-done
+  for i in $rpms_for_install
+  do
+    ! rpmquery --quiet $i && x="$x $i"
+  done
 
-[[ -n $x ]] && yum -y -q install $x
+  [[ -n $x ]] && yum -y -q install $x
 ```
 
 I.e. find the packages from the list which are not installed and just fire 'yum install'!
@@ -92,27 +92,24 @@ I just copy it to */usr/share/ansible*.
 ## Example I - common way of usage
 
 * roles/somerole/vars/main.yml
-
 ```
 :::yaml
-slc6_pkgs:
-- policycoreutils SL_password_for_singleuser SL_rpm_show_arch autofs nfs-utils iproute
-  xinetd libxml2.i686 telnet tftp libgcc.i686 libstdc++.i686 perl-SOAP-Lite pciutils
-  bind-utils ntp ksh zsh biosdevname asciidoc aspell automake byacc castor-lib 
-- ImageMagick PyXML SOAPpy net-snmp-libs.i686 dos2unix unix2dos ctags
-  openssl.i686 openssl.x86_64 openssl098e.i686 openssl098e.x86_64
-  perl-YAML perl-Error apr apr-util neon GitPython xorg-x11-xauth xterm gdb tkcvs
-  hplip
+  slc6_pkgs:
+  - policycoreutils SL_password_for_singleuser SL_rpm_show_arch autofs nfs-utils iproute
+    xinetd libxml2.i686 telnet tftp libgcc.i686 libstdc++.i686 perl-SOAP-Lite pciutils
+    bind-utils ntp ksh zsh biosdevname asciidoc aspell automake byacc castor-lib 
+  - ImageMagick PyXML SOAPpy net-snmp-libs.i686 dos2unix unix2dos ctags
+    openssl.i686 openssl.x86_64 openssl098e.i686 openssl098e.x86_64
+    perl-YAML perl-Error apr apr-util neon GitPython xorg-x11-xauth xterm gdb tkcvs
+    hplip
 ```
-
 * roles/somerole/tasks/main.yml
-
 ```
 :::yaml
-- name: install common software
-  action: yum2 name="{{ item }}" state=installed enablerepo=epel
-  with_items:
-    - ${slc6_pkgs}
+  - name: install common software
+    action: yum2 name="{{ item }}" state=installed enablerepo=epel
+    with_items:
+      - ${slc6_pkgs}
 ```
 
 It is quite important to follow the format of the example: if you put a '&#8211;' in
